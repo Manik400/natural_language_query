@@ -5,7 +5,7 @@ import json
 
 import streamlit as st
 
-from demo.engine import MODE_AI, MODE_RULES, ai_available, parse_query
+from demo.engine import MODE_AI, MODE_RULES, ai_available, missing_llm_settings, parse_query
 from demo.search_engine import search_events
 from ui.cache import cached_events, events_frame
 
@@ -255,8 +255,11 @@ with engine_col:
         ) or MODE_AI
     else:
         mode = MODE_RULES
+        missing = missing_llm_settings()
+        reason = ("no AI key configured" if len(missing) == 2
+                  else f"{missing[0]} is not set in secrets")
         st.markdown(
-            '<div class="engine-note">Engine · <b>offline rules</b> (no AI key configured)</div>',
+            f'<div class="engine-note">Engine · <b>offline rules</b> ({esc(reason)})</div>',
             unsafe_allow_html=True,
         )
 with btn_col:

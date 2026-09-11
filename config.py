@@ -32,4 +32,10 @@ class Settings(BaseSettings):
         return bool(self.OPENAI_API_KEY and self.LLM_MODEL)
 
 
-settings = Settings()
+def get_settings() -> Settings:
+    """Read settings fresh from the environment, so secrets saved while the
+    app is running (e.g. on Streamlit Cloud) take effect without a restart."""
+    return Settings()
+
+
+settings = get_settings()

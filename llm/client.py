@@ -1,9 +1,10 @@
 from langchain_openai import ChatOpenAI
 
-from config import settings
+from config import get_settings
 
 
 def get_llm() -> ChatOpenAI:
+    settings = get_settings()
     llm_instance = ChatOpenAI(
         model=settings.LLM_MODEL,
         temperature=settings.LLM_TEMPERATURE,

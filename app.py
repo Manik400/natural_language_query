@@ -17,12 +17,19 @@ os.environ.setdefault("TZ", "Asia/Kolkata")
 if hasattr(time, "tzset"):
     time.tzset()
 
-# Make root-level secrets (.streamlit/secrets.toml or the Cloud "Secrets" box)
-# visible to config.Settings, which reads environment variables.
+# Make secrets (.streamlit/secrets.toml or the Cloud "Secrets" box) visible to
+# config.Settings, which reads environment variables. Runs on every rerun and
+# overwrites, so edited secrets apply without a reboot.
+def _export_secrets(values) -> None:
+    for key, value in values.items():
+        if isinstance(value, (str, int, float)):
+            os.environ[key] = str(value).strip()
+        elif hasattr(value, "items"):  # keys pasted under a [section] header
+            _export_secrets(value)
+
+
 try:
-    for _key, _value in st.secrets.items():
-        if isinstance(_value, (str, int, float)):
-            os.environ.setdefault(_key, str(_value))
+    _export_secrets(st.secrets)
 except Exception:  # no secrets configured → offline rules mode
     pass
 

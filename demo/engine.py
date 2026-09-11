@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import asyncio
 
-from config import settings
+from config import get_settings
 from demo.rules_events import extract_attribute_conditions, select_events
 from demo.rules_fields import extract_fields
 from demo.rules_time import extract_time
@@ -18,8 +18,15 @@ MODE_AI = "ai"
 MODE_RULES = "rules"
 
 
+def missing_llm_settings() -> list[str]:
+    """Names of required LLM settings that are not set (empty list = AI mode available)."""
+    settings = get_settings()
+    required = {"OPENAI_API_KEY": settings.OPENAI_API_KEY, "LLM_MODEL": settings.LLM_MODEL}
+    return [name for name, value in required.items() if not value.strip()]
+
+
 def ai_available() -> bool:
-    return settings.llm_configured
+    return not missing_llm_settings()
 
 
 def _time_state(time_result: dict) -> dict:
