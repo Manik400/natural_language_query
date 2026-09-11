@@ -1,9 +1,30 @@
-import json
+"""
+Streamlit entry point (also the Streamlit Community Cloud main file).
 
-import requests
+Two pages, sharing the styles below:
+  - Search         (ui/search_page.py)   plain-English query → filters → matching events
+  - Data Explorer  (ui/data_explorer.py) browse the whole dummy dataset
+"""
+
+import os
+import time
+
 import streamlit as st
 
-API_URL = "http://localhost:8081/pipeline"
+# Streamlit Cloud servers run on UTC, but the time resolvers and transform.py
+# work in Indian wall-clock time.
+os.environ.setdefault("TZ", "Asia/Kolkata")
+if hasattr(time, "tzset"):
+    time.tzset()
+
+# Make root-level secrets (.streamlit/secrets.toml or the Cloud "Secrets" box)
+# visible to config.Settings, which reads environment variables.
+try:
+    for _key, _value in st.secrets.items():
+        if isinstance(_value, (str, int, float)):
+            os.environ.setdefault(_key, str(_value))
+except Exception:  # no secrets configured → offline rules mode
+    pass
 
 st.set_page_config(
     page_title="NLI · Query Intelligence",
@@ -475,315 +496,53 @@ html, body,
     margin-bottom: 1.8rem;
 }
 .status-irr::before { content: '●'; font-size: 0.55rem; }
+
+/* ── Applied-filter chips & result count (Search page) ── */
+.filter-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.1rem; }
+.filter-chip {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    background: #eef1f8;
+    border: 1px solid #d0d8ea;
+    border-radius: 6px;
+    padding: 0.3rem 0.65rem;
+    color: #2a3a5a;
+}
+.filter-chip b { color: #1a5cf0; font-weight: 600; margin-right: 0.35rem; }
+.result-count { font-size: 2.6rem; font-weight: 800; letter-spacing: -0.03em; color: #0f1829; line-height: 1; }
+.result-sub { font-size: 0.9rem; color: #5a6a88; margin: 0.35rem 0 1.1rem 0; }
+.engine-note { font-size: 0.82rem; color: #5a6a88; margin-top: 0.4rem; }
+
+/* ── Stat tiles (Data Explorer) ── */
+.stat-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 1rem; margin: 0.4rem 0 1.1rem 0; }
+.stat-tile {
+    background: #ffffff;
+    border: 1.5px solid #dde4f0;
+    border-radius: 14px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.stat-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.66rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #8a9ab8;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.stat-value { font-size: 1.9rem; font-weight: 700; color: #0f1829; line-height: 1.1; }
+.stat-tile.hero { border-top: 3px solid #1a5cf0; }
+.stat-tile.hero .stat-value { font-size: 3.2rem; font-weight: 800; letter-spacing: -0.03em; }
+.stat-note { font-size: 0.8rem; color: #5a6a88; margin-top: 0.35rem; }
+@media (max-width: 900px) { .stat-grid { grid-template-columns: 1fr 1fr; } }
 </style>
 """,
     unsafe_allow_html=True,
 )
 
-
-# ─────────────────────────────────────────────
-# Helpers
-# ─────────────────────────────────────────────
-def fmt_val(v):
-    if isinstance(v, bool):
-        cls = "f-val f-val-t" if v else "f-val f-val-f"
-        return f'<span class="{cls}">{"true" if v else "false"}</span>'
-    if isinstance(v, (int, float)):
-        return f'<span class="f-val f-val-n">{v}</span>'
-    return f'<span class="f-val">{v}</span>'
-
-
-def render_events(extracted_fields, field_attrs) -> str:
-    """Return HTML string for all extracted event field cards."""
-    html = ""
-    for ev in extracted_fields:
-        name = ev["event_name"]
-        fields = ev.get("relevant_fields", [])
-        attr = field_attrs.get(name, {})
-        snips = {f["field"]: f.get("query_snippet", "") for f in attr.get("fields", [])}
-        qpart = attr.get("query_part", "")
-
-        rows = ""
-        for f in fields:
-            fn = f.get("field", "")
-            op = f.get("operator", "")
-            val = f.get("value")
-            snip = snips.get(fn, "")
-            snip_td = (
-                '<td class="field-td f-snip">"' + snip + '"</td>'
-                if snip
-                else '<td class="field-td"></td>'
-            )
-            rows += (
-                '<tr class="field-row-tr">'
-                '<td class="field-td f-name">' + fn + "</td>"
-                '<td class="field-td f-op">' + op + "</td>"
-                '<td class="field-td">' + fmt_val(val) + "</td>" + snip_td + "</tr>"
-            )
-
-        qp_html = (
-            '<div class="ev-qpart"><b>slice ·</b> ' + qpart + "</div>" if qpart else ""
-        )
-
-        html += (
-            '<div class="ev-card">'
-            '<div class="ev-name">⬡ ' + name + "</div>"
-            '<table class="field-table">' + rows + "</table>" + qp_html + "</div>"
-        )
-    return html
-
-
-def render_attribute_conditions(attr_conditions: dict) -> str:
-    """Render attribute_conditions block as a styled card."""
-    if not attr_conditions:
-        return ""
-
-    # FIX 1: guard None conditionType — use "—" as display fallback
-    condition_type = attr_conditions.get("conditionType") or "—"
-    conditions = attr_conditions.get("conditions", [])
-
-    rows = ""
-    for c in conditions:
-        key = c.get("key", "")
-        operator = c.get("operator", "")
-        value = c.get("value", "")
-        raw_slice = c.get("raw_slice", "")
-
-        raw_td = (
-            '<td class="attr-cond-td ac-raw">"' + raw_slice + '"</td>'
-            if raw_slice
-            else '<td class="attr-cond-td"></td>'
-        )
-
-        rows += (
-            '<tr class="attr-cond-row">'
-            '<td class="attr-cond-td ac-key">' + key + "</td>"
-            '<td class="attr-cond-td ac-op">' + operator + "</td>"
-            '<td class="attr-cond-td ac-val">' + str(value) + "</td>" + raw_td + "</tr>"
-        )
-
-    empty_html = (
-        '<div style="font-family:IBM Plex Mono,monospace;font-size:0.8rem;color:#8a9ab8;font-style:italic;">No conditions defined.</div>'
-        if not rows
-        else ""
-    )
-
-    return (
-        '<div class="attr-cond-card">'
-        '<div class="attr-cond-label">⧫ Attribute Conditions</div>'
-        '<div class="attr-cond-type">condition type · '
-        + condition_type
-        + "</div>"
-        + (
-            '<table class="attr-cond-table">'
-            "<thead><tr>"
-            '<th style="font-family:IBM Plex Mono,monospace;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:#8a9ab8;font-weight:600;padding:0 0 0.5rem 0;text-align:left;border-bottom:1.5px solid #eaeff8;">key</th>'
-            '<th style="font-family:IBM Plex Mono,monospace;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:#8a9ab8;font-weight:600;padding:0 0 0.5rem 0;text-align:left;border-bottom:1.5px solid #eaeff8;">operator</th>'
-            '<th style="font-family:IBM Plex Mono,monospace;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:#8a9ab8;font-weight:600;padding:0 0 0.5rem 0;text-align:left;border-bottom:1.5px solid #eaeff8;">value</th>'
-            '<th style="font-family:IBM Plex Mono,monospace;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:#8a9ab8;font-weight:600;padding:0 0 0.5rem 0;text-align:left;border-bottom:1.5px solid #eaeff8;">raw slice</th>'
-            "</tr></thead>"
-            "<tbody>" + rows + "</tbody>"
-            "</table>"
-            if rows
-            else empty_html
-        )
-        + "</div>"
-    )
-
-
-def render_video_groups(groups: list) -> str:
-    badge_colors = {
-        "ip": ("#8a2be2", "#f0e8ff"),
-        "exact": ("#16803a", "#e8faf0"),
-        "partial": ("#1a5cf0", "#eaf0ff"),
-        "fuzzy": ("#5a6a88", "#eef1f8"),
-    }
-
-    html = (
-        '<div class="card card-accent"><div class="card-label">📹 Video Resources</div>'
-    )
-
-    if not groups:
-        html += '<div class="vgroup-empty">No cameras resolved.</div>'
-    else:
-        for group in groups:
-            token = group.get("matched_token", "")
-            raw = group.get("matched_raw_slice", "")
-            mtype = group.get("match_type", "")
-            conf = group.get("confidence", "")
-            cameras = group.get("cameras", [])
-
-            fc, bc = badge_colors.get(mtype, ("#5a6a88", "#eef1f8"))
-            badge_style = f"color:{fc};background:{bc};border:1px solid {fc}40;"
-
-            info_rows = (
-                '<div class="vgroup-info-row">'
-                '<div class="vgroup-info-key">matched token</div>'
-                '<div class="vgroup-info-val token">' + token + "</div>"
-                "</div>"
-                '<div class="vgroup-info-row">'
-                '<div class="vgroup-info-key">raw slice</div>'
-                '<div class="vgroup-info-val slice">' + raw + "</div>"
-                "</div>"
-            )
-
-            chips = "".join('<span class="cam-chip">' + c + "</span>" for c in cameras)
-
-            html += (
-                '<div class="vgroup">'
-                '<div class="vgroup-header">'
-                '<span class="vgroup-name">' + token + "</span>"
-                '<span class="vgroup-badge" style="'
-                + badge_style
-                + '">'
-                + mtype
-                + " · "
-                + str(conf)
-                + "%"
-                "</span>"
-                "</div>"
-                '<div class="vgroup-info">' + info_rows + "</div>"
-                '<div class="cam-wrap">' + chips + "</div>"
-                "</div>"
-            )
-
-    html += "</div>"
-    return html
-
-
-# ─────────────────────────────────────────────
-# Hero
-# ─────────────────────────────────────────────
-st.markdown(
-    """
-<div class="hero">
-    <div class="hero-eyebrow">Natural Language Intelligence</div>
-    <div class="hero-title">Query <span>Pipeline</span></div>
-    <div class="hero-desc">Parse natural language into structured event filters, time ranges, and camera resources.</div>
-</div>
-""",
-    unsafe_allow_html=True,
-)
-
-# ─────────────────────────────────────────────
-# Input
-# ─────────────────────────────────────────────
-query = st.text_area(
-    "query",
-    value="Fetch events for last 7 days from ip source 192.168.9 for wanted person named Karan Desai showing angry emotion was seen riding stolen red bike with plate number HR5653RT78 violating traffic signal and speed limit, also check if his address is mg road, gurugram.",
-    height=110,
-    label_visibility="collapsed",
-)
-_, btn_col, _ = st.columns([2, 1, 2])
-with btn_col:
-    run = st.button("Analyze Query")
-
-st.markdown("<br>", unsafe_allow_html=True)
-
-# ─────────────────────────────────────────────
-# Call API & Render
-# ─────────────────────────────────────────────
-if run and query.strip():
-    with st.spinner("Running pipeline…"):
-        try:
-            resp = requests.post(API_URL, json={"query": query}, timeout=180)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception as e:
-            st.error(f"API error: {e}")
-            st.stop()
-
-    status = data.get("status", "success")
-    sa = data.get("source_attributions", {})
-
-    if status == "irrelevant":
-        msg = data.get("message") or "No relevant events found."
-        st.markdown(
-            '<div class="status-irr">irrelevant · ' + msg + "</div>",
-            unsafe_allow_html=True,
-        )
-    else:
-        st.markdown(
-            '<div class="status-ok">pipeline complete · ' + status + "</div>",
-            unsafe_allow_html=True,
-        )
-
-    # Query echo
-    st.markdown(
-        '<div class="card" style="margin-bottom:1.8rem;">'
-        '<div class="card-label">◈ Query</div>'
-        '<div style="font-size:1rem; color:#2a3a5a; line-height:1.7; font-weight:500;">'
-        + data.get("query", "")
-        + "</div></div>",
-        unsafe_allow_html=True,
-    )
-
-    # ── ROW 1: Time | Video | Attribute Conditions ──────────────
-    col_time, col_video, col_attr = st.columns([1, 1, 1], gap="large")
-
-    # TIME
-    with col_time:
-        time_data = data.get("time", {}) or {}
-        # FIX 2: guard None time_attr with fallback to empty dict
-        time_attr = sa.get("time") or {}
-        start = time_data.get("start", {}) or {}
-        end = time_data.get("end", {}) or {}
-        st.markdown(
-            f"""
-        <div class="card card-accent">
-            <div class="card-label">⏱ Time Range</div>
-            <div class="time-grid">
-                <div class="time-cell">
-                    <div class="time-cell-label">Start</div>
-                    <div class="time-cell-date">{start.get("date", "—")}</div>
-                    <div class="time-cell-time">{start.get("time", "")}</div>
-                </div>
-                <div class="time-cell">
-                    <div class="time-cell-label">End</div>
-                    <div class="time-cell-date">{end.get("date", "—")}</div>
-                    <div class="time-cell-time">{end.get("time", "")}</div>
-                </div>
-            </div>
-            <div class="time-meta">
-                <div class="time-meta-item">intent · <span>{time_attr.get("time_intent", "—")}</span></div>
-                <div class="time-meta-item">subclass · <span>{time_attr.get("intent_subclass", "—")}</span></div>
-                <div class="time-meta-item">phrase · <span>"{time_attr.get("raw_time_query", "—")}"</span></div>
-            </div>
-        </div>""",
-            unsafe_allow_html=True,
-        )
-
-    # VIDEO
-    with col_video:
-        groups = data.get("video_resources", {}).get("groups", [])
-        st.markdown(render_video_groups(groups), unsafe_allow_html=True)
-
-    # ATTRIBUTE CONDITIONS
-    with col_attr:
-        attr_conditions = data.get("attribute_conditions", {})
-        if attr_conditions:
-            st.markdown(
-                render_attribute_conditions(attr_conditions), unsafe_allow_html=True
-            )
-
-    # ── ROW 2: Extracted Event Fields (full width) ────────────
-    st.markdown("<br>", unsafe_allow_html=True)
-    extracted = data.get("extracted_fields", [])
-    field_attrs = sa.get("fields") or {}
-    if extracted:
-        events_html = render_events(extracted, field_attrs)
-        st.markdown(
-            '<div class="events-row-card">'
-            '<div class="card-label">⬡ Extracted Event Fields</div>'
-            '<div class="events-inner-grid">' + events_html + "</div>"
-            "</div>",
-            unsafe_allow_html=True,
-        )
-
-    # ── Raw JSON ─────────────────────────────────
-    st.markdown("<br>", unsafe_allow_html=True)
-    with st.expander("Raw Response"):
-        st.code(json.dumps(data, indent=2), language="json")
-
-elif run:
-    st.warning("Please enter a query.")
+pages = [
+    st.Page("ui/search_page.py", title="Search", icon=":material/search:", default=True),
+    st.Page("ui/data_explorer.py", title="Data Explorer", icon=":material/table_view:"),
+]
+st.navigation(pages, position="top").run()

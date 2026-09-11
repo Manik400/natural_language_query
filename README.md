@@ -252,6 +252,47 @@ API_PORT=8081
 
 ---
 
+## Demo App: Dummy Data, Search & Data Explorer
+
+`streamlit run app.py` starts a two-page app. No API server is needed; the pipeline runs inside the Streamlit process.
+
+| Page | What it does |
+|------|--------------|
+| **Search** (`ui/search_page.py`) | The original query UI. Parses a plain-English query into time, cameras, events, fields and attributes, then lists the **matching events from the dummy dataset** |
+| **Data Explorer** (`ui/data_explorer.py`) | Browse every dummy event: filters (date, analytics, camera, free text), totals, events-per-day and top-N charts, a clickable table with the full record, CSV export |
+
+**Dummy data.** `data/dummy_events.jsonl` holds 2,000 synthetic events across all 15 analytics and the 97 cameras in `artifacts/video_resources.json`. Every event is validated against its JSON Schema. Dates are shifted at load time so the data always ends today. A few hand-planted events match the default demo query (stolen red bike `HR5653RT78`, Karan Desai). Regenerate with:
+
+```bash
+python scripts/generate_dummy_data.py --count 2000 --days 60
+```
+
+**Two parsing engines** (`demo/engine.py`):
+
+| Engine | When | How |
+|--------|------|-----|
+| **AI (LLM)** | `OPENAI_API_KEY` and `LLM_MODEL` are set | The real LangGraph pipeline (`graph.run_pipeline`) |
+| **Offline rules** | No key configured | Keyword/regex rules (`demo/rules_*.py`) replace the LLM calls. The time resolvers, camera matcher and validators are the project's real code. Fine for a demo, but less flexible than the LLM with unusual phrasing |
+
+Matching (`demo/search_engine.py`) follows the same semantics as the API payload from `transform.py`: time window AND cameras AND (any matched event type whose field rules all pass) AND attribute conditions (ALL/ANY).
+
+## Deploy to Streamlit Community Cloud
+
+1. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub, and allow access to private repositories when asked.
+2. **Create app** → repository `Manik400/natural_language_query`, branch `main`, main file `app.py`.
+3. *(Optional)* **Advanced settings → Secrets**, to switch on AI mode:
+   ```toml
+   OPENAI_API_KEY = "your-key"
+   LLM_MODEL = "gpt-4o-mini"
+   # LLM_BASE_URL = "https://..."   # any OpenAI-compatible provider
+   ```
+   Without secrets the app runs in offline rules mode.
+4. **Deploy.** Every push to `main` redeploys the app automatically.
+
+Free-tier options for an OpenAI-compatible key include Google AI Studio (Gemini, base URL `https://generativelanguage.googleapis.com/v1beta/openai/`) and Groq (`https://api.groq.com/openai/v1`). Check the provider's current model names, and pick a model that supports function calling (field extraction needs it).
+
+---
+
 ## Running the Project
 
 ### Prerequisites
