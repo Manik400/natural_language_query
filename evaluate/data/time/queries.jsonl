@@ -1,0 +1,308 @@
+{"query": "current month"}
+{"query": "this week"}
+{"query": "current year"}
+{"query": "this month"}
+{"query": "current week"}
+{"query": "this year"}
+{"query": "last 7 days"}
+{"query": "last 30 days"}
+{"query": "past 3 months"}
+{"query": "previous 2 weeks"}
+{"query": "last 90 days"}
+{"query": "past 6 months"}
+{"query": "last 14 days"}
+{"query": "previous 4 weeks"}
+{"query": "past 12 months"}
+{"query": "last 60 days"}
+{"query": "past 2 years"}
+{"query": "last 5 weeks"}
+{"query": "previous 10 days"}
+{"query": "past 8 weeks"}
+{"query": "last month"}
+{"query": "previous week"}
+{"query": "past year"}
+{"query": "last quarter"}
+{"query": "previous month"}
+{"query": "past week"}
+{"query": "last year"}
+{"query": "previous quarter"}
+{"query": "past quarter"}
+{"query": "previous year"}
+{"query": "next 7 days"}
+{"query": "next 2 weeks"}
+{"query": "next 3 months"}
+{"query": "next 30 days"}
+{"query": "next 4 weeks"}
+{"query": "next 6 months"}
+{"query": "next 90 days"}
+{"query": "next 12 months"}
+{"query": "next 5 weeks"}
+{"query": "next 2 years"}
+{"query": "7 days before 10 september 2023"}
+{"query": "5 days after 23 october 2024"}
+{"query": "2 weeks before 10 jan 2024"}
+{"query": "3 months after 15 march 2025"}
+{"query": "14 days before 1 december 2024"}
+{"query": "4 weeks after 20 february 2025"}
+{"query": "30 days before 31 august 2024"}
+{"query": "2 months after 5 may 2025"}
+{"query": "1 week after 1 january 2026"}
+{"query": "year 2024"}
+{"query": "2023"}
+{"query": "year 2025"}
+{"query": "2022"}
+{"query": "year 2026"}
+{"query": "2021"}
+{"query": "year 2020"}
+{"query": "2019"}
+{"query": "year 2018"}
+{"query": "2017"}
+{"query": "october 2021"}
+{"query": "february 2023"}
+{"query": "december 2024"}
+{"query": "march 2025"}
+{"query": "july 2022"}
+{"query": "january 2026"}
+{"query": "september 2023"}
+{"query": "june 2024"}
+{"query": "april 2025"}
+{"query": "november 2021"}
+{"query": "from sep 2024 to jan 2025"}
+{"query": "october to december 2023"}
+{"query": "january through march 2024"}
+{"query": "april till june 2025"}
+{"query": "from february to may 2024"}
+{"query": "july through september 2023"}
+{"query": "march to august 2025"}
+{"query": "from november 2024 to january 2025"}
+{"query": "june till october 2024"}
+{"query": "may through july 2023"}
+{"query": "today"}
+{"query": "yesterday"}
+{"query": "monday"}
+{"query": "last friday"}
+{"query": "next tuesday"}
+{"query": "wednesday"}
+{"query": "last sunday"}
+{"query": "next saturday"}
+{"query": "thursday"}
+{"query": "last monday"}
+{"query": "next friday"}
+{"query": "tuesday"}
+{"query": "last wednesday"}
+{"query": "next monday"}
+{"query": "friday"}
+{"query": "saturday"}
+{"query": "sunday"}
+{"query": "last thursday"}
+{"query": "next wednesday"}
+{"query": "last saturday"}
+{"query": "next thursday"}
+{"query": "last tuesday"}
+{"query": "next sunday"}
+{"query": "23 october"}
+{"query": "5 jan 2024"}
+{"query": "15 march 2025"}
+{"query": "31 august 2024"}
+{"query": "25 december 2023"}
+{"query": "18 september 2025"}
+{"query": "29 november 2024"}
+{"query": "20 june 2026"}
+{"query": "28 october 2024"}
+{"query": "1 jan 2024 to 5 jan 2024"}
+{"query": "from 10 march 2023 till 20 march 2023"}
+{"query": "15 february 2024 through 28 february 2024"}
+{"query": "from 1 april 2025 to 30 april 2025"}
+{"query": "5 july 2023 till 15 july 2023"}
+{"query": "from 10 september 2024 through 25 september 2024"}
+{"query": "20 november 2023 to 5 december 2023"}
+{"query": "from 1 june 2024 till 30 june 2024"}
+{"query": "8 august 2025 through 22 august 2025"}
+{"query": "from 14 october 2024 to 31 october 2024"}
+{"query": "show me data for this week"}
+{"query": "stats for current month"}
+{"query": "what happened this year"}
+{"query": "show last 15 days"}
+{"query": "past 100 days data"}
+{"query": "previous 8 weeks performance"}
+{"query": "report for last month"}
+{"query": "summary of previous week"}
+{"query": "analysis for past year"}
+{"query": "forecast for next 10 days"}
+{"query": "planning next 5 weeks"}
+{"query": "schedule next 180 days"}
+{"query": "show me sales from last quarter"}
+{"query": "get data for next 45 days"}
+{"query": "revenue in october 2024"}
+{"query": "transactions on 15 march 2025"}
+{"query": "orders from yesterday"}
+{"query": "total revenue this month"}
+{"query": "customer signups last 60 days"}
+{"query": "meetings scheduled for next monday"}
+{"query": "expenses from 1 jan to 31 jan 2025"}
+{"query": "inventory levels on 20 december 2024"}
+{"query": "3 days before"}
+{"query": "5 weeks after"}
+{"query": "2 months from"}
+{"query": "until next"}
+{"query": "after the meeting"}
+{"query": "before the event"}
+{"query": "early January"}
+{"query": "mid-2024"}
+{"query": "late March"}
+{"query": "end of summer"}
+{"query": "beginning of the month"}
+{"query": "Q2"}
+{"query": "Q3"}
+{"query": "sometime in march"}
+{"query": "approximately next week"}
+{"query": "roughly mid-year"}
+{"query": "fiscal year 2024"}
+{"query": "H1 2024"}
+{"query": "H2 2025"}
+{"query": "spring 2024"}
+{"query": "winter"}
+{"query": "fall season"}
+{"query": "summer months"}
+{"query": "tax season"}
+{"query": "few days ago"}
+{"query": "couple weeks"}
+{"query": "several months"}
+{"query": "many years ago"}
+{"query": "long time ago"}
+{"query": "recently"}
+{"query": "soon"}
+{"query": "later"}
+{"query": "eventually"}
+{"query": "someday"}
+{"query": "32 january 2024"}
+{"query": "february 30 2024"}
+{"query": "31 april 2024"}
+{"query": "29 february 2023"}
+{"query": "00 march 2024"}
+{"query": "15 13 2024"}
+{"query": "13/45/2024"}
+{"query": "35/12/2024"}
+{"query": "2024-13-45"}
+{"query": "31 june 2024"}
+{"query": "31 september 2025"}
+{"query": "31 november 2024"}
+{"query": "30 february 2024"}
+{"query": "last month next year"}
+{"query": "yesterday in 2020"}
+{"query": "past future dates"}
+{"query": "before after march"}
+{"query": "next previous week"}
+{"query": "start of end"}
+{"query": "second quarter of H1"}
+{"query": "mid-early 2024"}
+{"query": "approximately sometime"}
+{"query": "10 weeks before"}
+{"query": "6 months after"}
+{"query": "3 years from"}
+{"query": "2 days until"}
+{"query": "starting from"}
+{"query": "ending at"}
+{"query": "near valentine's day"}
+{"query": "close to independence day"}
+{"query": "around new year"}
+{"query": "about thanksgiving"}
+{"query": "late spring"}
+{"query": "early autumn"}
+{"query": "mid-winter"}
+{"query": "beginning of fall"}
+{"query": "end of summer 2024"}
+{"query": "middle of harvest season"}
+{"query": "dead of winter"}
+{"query": "height of spring"}
+{"query": "depth of autumn"}
+{"query": "turn of the year"}
+{"query": "turn of the month"}
+{"query": "midpoint"}
+{"query": "halfway through"}
+{"query": "three quarters in"}
+{"query": "one third of the way"}
+{"query": "nearly over week"}
+{"query": "what is the weather today"}
+{"query": "how to make pizza"}
+{"query": "latest news on technology"}
+{"query": "python tutorial for beginners"}
+{"query": "translate hello to spanish"}
+{"query": "who won the world cup"}
+{"query": "symptoms of flu"}
+{"query": "capital of france"}
+{"query": "movie recommendations"}
+{"query": "nearest gas station"}
+{"query": "how to lose weight"}
+{"query": "stock price of apple"}
+{"query": "meaning of artificial intelligence"}
+{"query": "top 10 songs 2024"}
+{"query": "yoga poses for back pain"}
+{"query": "how does blockchain work"}
+{"query": "best running shoes"}
+{"query": "cat vs dog which is better"}
+{"query": "history of world war 2"}
+{"query": "how to tie a tie"}
+{"query": "vitamin d benefits"}
+{"query": "reset password for gmail"}
+{"query": "fibonacci sequence explanation"}
+{"query": "fastest car in the world"}
+{"query": "is coffee healthy"}
+{"query": "how to meditate properly"}
+{"query": "population of india"}
+{"query": "best places to visit in europe"}
+{"query": "quantum computing basics"}
+{"query": "explain photosynthesis"}
+{"query": "best podcast recommendations"}
+{"query": "olympic games history"}
+{"query": "today from 2 pm to 5 pm"}
+{"query": "today 9 am to 11 am"}
+{"query": "yesterday from 1 pm to 3 pm"}
+{"query": "yesterday 8:30 am to 10:30 am"}
+{"query": "5 jan 2024 from 9 am to 6 pm"}
+{"query": "12 february 2023 10 am to 12 pm"}
+{"query": "monday from 3 pm to 4 pm"}
+{"query": "last friday 7 pm to 9 pm"}
+{"query": "next tuesday from 8 am to 10 am"}
+{"query": "sunday 4 pm to 6 pm"}
+{"query": "23 october 2021 from 2 pm to 7 pm"}
+{"query": "today between 6 pm and 8 pm"}
+{"query": "yesterday 11 am to 1 pm"}
+{"query": "15 march 2023 from 12 pm to 3 pm"}
+{"query": "next monday 5 pm to 7 pm"}
+{"query": "last wednesday from 9 am to 11 am"}
+{"query": "today 1:15 pm to 2:45 pm"}
+{"query": "8 aug 2022 from 10:30 am to 1:30 pm"}
+{"query": "friday 2 pm to 4 pm"}
+{"query": "1 december 2024 from 3 pm to 6 pm"}
+{"query": "1 jan 2024 to 5 jan 2024 from 9 am to 6 pm"}
+{"query": "from 10 03 2023 till 20 03 2023 8 am to 10 am"}
+{"query": "15 february 2022 through 18 february 2022 7 pm to 9 pm"}
+{"query": "2 april 2023 to 4 april 2023 from 1 pm to 3 pm"}
+{"query": "5 may 2024 to 10 may 2024 10 am to 12 pm"}
+{"query": "from 12 june 2022 to 15 june 2022 2 pm to 5 pm"}
+{"query": "7 july 2023 to 9 july 2023 6 pm to 8 pm"}
+{"query": "1 august 2024 through 3 august 2024 9 am to 11 am"}
+{"query": "14 september 2023 to 16 september 2023 from 4 pm to 7 pm"}
+{"query": "10 october 2022 till 12 october 2022 8 am to 9 am"}
+{"query": "25 november 2023 to 30 november 2023 1 pm to 4 pm"}
+{"query": "from 3 december 2024 to 6 december 2024 5 pm to 9 pm"}
+{"query": "8 january 2023 to 10 january 2023 7 am to 10 am"}
+{"query": "18 february 2024 to 20 february 2024 11 am to 1 pm"}
+{"query": "22 march 2022 to 25 march 2022 3 pm to 6 pm"}
+{"query": "4 april 2024 to 8 april 2024 10 am to 2 pm"}
+{"query": "9 may 2023 to 11 may 2023 12 pm to 3 pm"}
+{"query": "13 june 2024 to 15 june 2024 2 pm to 4 pm"}
+{"query": "19 july 2023 to 21 july 2023 6 pm to 9 pm"}
+{"query": "27 august 2022 to 30 august 2022 8 am to 12 pm"}
+{"query": "last friday 10:30 pm to 4:30 am"}
+{"query": "today for 3 hours starting at 2 pm"}
+{"query": "yesterday for 90 minutes from 10:30 am"}
+{"query": "5 jan 2024 for 2 hours at 6 pm"}
+{"query": "monday for 4 hours starting at 8 am"}
+{"query": "next tuesday for 1 hour from 3 pm"}
+{"query": "last friday for 5 hours starting at 7 pm"}
+{"query": "23 october 2021 for 6 hours at 9 am"}
+{"query": "sunday for 2 hours starting at 4 pm"}
+{"query": "15 march 2023 for 3 hours at 11 am"}
+{"query": "today for 45 minutes starting at 1 pm"}

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://your-org/schemas/Objects_Entered_EventProperties.json",
+  "title": "Objects Entered Properties",
+  "description": "Counts objects or people entering and exiting a defined area using virtual lines or boundaries. Provides entry and exit time, including breakdowns by gender and age groups, and supports tracking movement direction across named lines. Use this event when queries mention entry or exit, people or objects crossing a line, or flow analysis through a specific point.",
+  "type": "object",
+  "properties": {
+    "male_entry": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Number of male individuals detected entering the monitored area across the configured line."
+    },
+    "male_exit": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Number of male individuals detected exiting the monitored area across the configured line."
+    },
+    "female_entry": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Number of female individuals detected entering the monitored area across the configured line."
+    },
+    "female_exit": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Number of female individuals detected exiting the monitored area across the configured line."
+    },
+    "entry": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Total number of objects or people detected entering the defined area."
+    },
+    "exit": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Total number of objects or people detected exiting the defined area."
+    },
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Specifies the category of detected object or entity (e.g., person, vehicle, object)."
+    },
+    "lineName": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Name or identifier of the virtual line used to detect entry or exit movement."
+    },
+    "male": {
+      "type": "boolean",
+      "ruleType": 3,
+      "default": false,
+      "description": "Boolean flag indicating whether the detected subject is male."
+    },
+    "female": {
+      "type": "boolean",
+      "ruleType": 3,
+      "default": false,
+      "description": "Boolean flag indicating whether the detected subject is female."
+    },
+    "AgeYoung": {
+      "type": "boolean",
+      "ruleType": 3,
+      "default": false,
+      "description": "Indicates whether the detected subject belongs to the young age group."
+    },
+    "AgeYoungAdult": {
+      "type": "boolean",
+      "ruleType": 3,
+      "default": false,
+      "description": "Indicates whether the detected subject belongs to the young adult age group."
+    },
+    "AgeAdult": {
+      "type": "boolean",
+      "ruleType": 3,
+      "default": false,
+      "description": "Indicates whether the detected subject belongs to the adult age group."
+    },
+    "AgeOld": {
+      "type": "boolean",
+      "ruleType": 3,
+      "default": false,
+      "description": "Indicates whether the detected subject belongs to the older age group."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

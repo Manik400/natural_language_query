@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://your-org/schemas/Crowd_Detected_EventProperties.json",
+  "title": "Crowd Detected Properties",
+  "type": "object",
+  "description": "Detects and analyzes groups of people present in a defined area or zone. Provides information about crowd size, crowd type, movement speed or density, and whether a configured threshold is exceeded. Use this event when queries mention crowds, gatherings, congestion, high footfall, or crowd movement in specific zones.",
+
+  "properties": {
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Crowd type or classification"
+    },
+    "threshold": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Configured crowd threshold"
+    },
+    "count": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Detected crowd count"
+    },
+    "speed": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Crowd movement speed or density descriptor"
+    },
+    "zoneId": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Zone identifier where crowd is detected"
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

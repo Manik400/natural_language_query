@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/anpr-properties.json",
+  "title": "ANPR Properties",
+  "description": "Detects vehicles using automatic number plate recognition in traffic and surveillance cameras.",
+  "type": "object",
+  "properties": {
+    "plateNumber": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "The alphanumeric license plate number detected by the ANPR system."
+    },
+    "speed": {
+      "type": "number",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Vehicle speed in km/h."
+    },
+    "VehicleColor": {
+      "type": "string",
+      "ruleType": 1,
+      "enum": ["Red", "Green", "Blue", "Yellow", "Orange"],
+      "description": "Color of the detected vehicle."
+    },
+    "Category": {
+      "type": "string",
+      "ruleType": 1,
+      "enum": [
+        "Stolen",
+        "Wanted",
+        "Lost",
+        "Suspecious",
+        "Authorized",
+        "Unauthorized"
+      ],
+      "description": "Classification of the vehicle."
+    },
+    "numberOfRiders": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Total riders detected on the vehicle."
+    },
+    "redLightViolated": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "True if vehicle violated red light."
+    },
+    "speedViolated": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "True if vehicle exceeded speed limit."
+    },
+    "trippleRiding": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "True if triple riding detected."
+    },
+    "noHelmet": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "True if rider not wearing helmet."
+    }
+  },
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

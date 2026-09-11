@@ -1,0 +1,717 @@
+{"query": "Show all events from the last 24 hours where a male person was detected without a mask.", "label": "done"}
+{"query": "Get analytics from camera 12 where a person was detected with glasses and a mask.", "label": "done"}
+{"query": "Fetch all events from yesterday where a person’s emotion was angry.", "label": "done"}
+{"query": "Show  alerts from the past 7 days where gender is female and emotion is sad.", "label": "done"}
+{"query": "Retrieve events where a person’s age is above 60 detected on camera 45.", "label": "done"}
+{"query": "Get all detections where the person is happy without mask.", "label": "done"}
+{"query": "Show analytics from entry_cam where a male wearing glasses was detected today.", "label": "done"}
+{"query": "Fetch all events from last week where a person was wearing mask.", "label": "done"}
+{"query": "Show detections where a person looked surprised in the past 48 hours.", "label": "done"}
+{"query": "Retrieve analytics where a female without glasses was detected.", "label": "done"}
+{"query": "Get all events involving a person named Rahul Sharma.", "label": "done"}
+{"query": "Show alerts from camera 210 where emotion is neutral.", "label": "done"}
+{"query": "Fetch detections from last 30 days where age is between 18 and 25.", "label": "done"}
+{"query": "Get analytics where a person was detected with mask and glasses together.", "label": "done"}
+{"query": "Show events where emotion is scared detected during night hours.", "label": "done"}
+{"query": "Retrieve all detections where detConf is not less than 0.9.", "label": "done"}
+{"query": "Get events involving a known identity flagged as staff.", "label": "done"}
+{"query": "Show analytics from camera 77 where a male was detected wearing a mask.", "label": "done"}
+{"query": "Fetch events from yesterday where a female showed angry emotion.", "label": "done"}
+{"query": "Get all detections from zone Z-12.", "label": "done"}
+{"query": "Show events where identity is unknown and no mask was worn.", "label": "done"}
+{"query": "Retrieve analytics where a person with no glasses was detected.", "label": "done"}
+{"query": "Get alerts for personId 3fa85f64-5717-4562-b3fc-2c963f66afa6.", "label": "done"}
+{"query": "Show events from camera 305 where emotion is disgusted.", "label": "done"}
+{"query": "Fetch detections from past 15 days where age is below 12.", "label": "done"}
+{"query": "Get analytics where a person was detected wearing a mask but no glasses.", "label": "done"}
+{"query": "Show events where gender is male and emotion is neutral.", "label": "done"}
+{"query": "Retrieve events from camera 118 where detConf is below 0.6.", "label": "done"}
+{"query": "Get analytics for known persons detected multiple times today.", "label": "done"}
+{"query": "Show events where a person appeared sad and masked.", "label": "done"}
+{"query": "Fetch detections from camera 501 where a female wore glasses.", "label": "done"}
+{"query": "Get alerts where emotion is unknown.", "label": "done"}
+{"query": "Show analytics from last week where age is above 50.", "label": "done"}
+{"query": "Retrieve detections where person without mask was inside restricted area cameras.", "label": "done"}
+{"query": "Get events involving VIP identity detected today.", "label": "done"}
+{"query": "Show results from camera 88 where emotion is happy.", "label": "done"}
+{"query": "Fetch analytics where a male with glasses was detected without a mask.", "label": "done"}
+{"query": "Get events from past 72 hours where detConf is greater than 0.8.", "label": "done"}
+{"query": "Show alerts where identity matches watchlist.", "label": "done"}
+{"query": "Retrieve detections where a child was detected wearing a mask.", "label": "done"}
+{"query": "Get analytics from camera 150 where emotion is angry or scared.", "label": "done"}
+{"query": "Show events involving staff members detected after office hours.", "label": "done"}
+{"query": "Fetch detections where a female without mask entered the premises.", "label": "done"}
+{"query": "Get events where age is exactly 30.", "label": "done"}
+{"query": "Show analytics from camera 333 where a person had glasses and happy emotion.", "label": "done"}
+{"query": "Retrieve events from last month involving known identities only.", "label": "done"}
+{"query": "Get detections where emotion changed from neutral to angry.", "label": "done"}
+{"query": "Show alerts for unknown persons with high confidence.", "label": "done"}
+{"query": "Fetch all events from the last 7 days where a male without mask and emotion angry was detected.", "label": "done"}
+{"query": "Give me all events from the past 7 days where a stolen yellow truck with plate HR35456 was overspeeding above 80 km/h.", "label": "done"}
+{"query": "Show analytics events from camera 12 where a blue car violated a red light today.", "label": "done"}
+{"query": "Fetch all events from yesterday involving a wanted motorcycle with no helmet detected on camera 45.", "label": "done"}
+{"query": "List all detections from 1 Jan 2025 to 10 Jan 2025 where speed exceeded 100 km/h.", "label": "done"}
+{"query": "Get events from feed 111 where a red unauthorized bike had triple riding.", "label": "done"}
+{"query": "Show all vehicles with plate number DL8CAF1234 detected in the last 30 days.", "label": "done"}
+{"query": "Retrieve analytics where a green authorized car crossed 120 km/h on NH-44.", "label": "done"}
+{"query": "Find stolen vehicles detected today from camera 9.", "label": "done"}
+{"query": "Give me all events where a yellow mini-truck violated speed rules in the past week.", "label": "done"}
+{"query": "Show alerts from camera 78 for red light violations.", "label": "done"}
+{"query": "Fetch all wanted vehicles detected between March 1 and March 31, 2025.", "label": "done"}
+{"query": "Get events where a bike had more than two riders and no helmet.", "label": "done"}
+{"query": "Show analytics for blue cars overspeeding above 90 km/h.", "label": "done"}
+{"query": "Find vehicles categorized as Unauthorized from camera 67.", "label": "done"}
+{"query": "List all detections from Delhi road junction in the last 48 hours.", "label": "done"}
+{"query": "Get all events where speed and red light is violated.", "label": "done"}
+{"query": "Fetch data for plate KA09MN7788 detected this month.", "label": "done"}
+{"query": "Show events where a truck exceeded 70 km/h inside city limits.", "label": "done"}
+{"query": "Retrieve all yellow vehicles detected on camera 101.", "label": "done"}
+{"query": "Get events for lost vehicles from the last 15 days.", "label": "done"}
+{"query": "Show all motorcycles detected without helmets yesterday.", "label": "done"}
+{"query": "Fetch analytics where a car violated traffic signals near MG Road.", "label": "done"}
+{"query": "List events from camera 305 where speed was over 110 km/h.", "label": "done"}
+{"query": "Get all stolen vehicle detections from feeds 200–210.", "label": "done"}
+{"query": "Retrieve data where number of riders is not less than 3.", "label": "done"}
+{"query": "Find events with plate HR26AB9999 from last week.", "label": "done"}
+{"query": "Show all red vehicles detected between 10 AM and 6 PM today.", "label": "done"}
+{"query": "Get analytics for authorized vehicles overspeeding.", "label": "done"}
+{"query": "List all vehicles detected in zone Z-12 yesterday.", "label": "done"}
+{"query": "Fetch events where bike riders had no helmets.", "label": "done"}
+{"query": "Show events where speed exceeded 150 km/h.", "label": "done"}
+{"query": "Get data for blue stolen cars from camera 88.", "label": "done"}
+{"query": "List all detections from camera 150 today.", "label": "done"}
+{"query": "Show vehicles that are wanteed detected this week.", "label": "done"}
+{"query": "Get all speed violation cases from last month.", "label": "done"}
+{"query": "Show events where truck drivers violated red light.", "label": "done"}
+{"query": "Fetch analytics for plate TN10AA1234.", "label": "done"}
+{"query": "List events from feed 501 where speed violation happened.", "label": "done"}
+{"query": "Show vehicles detected during night hours yesterday.", "label": "done"}
+{"query": "Get all unauthorized bikes detected this year.", "label": "done"}
+{"query": "Retrieve data where car speed was exactly 80 km/h.", "label": "done"}
+{"query": "Show stolen vehicle alerts near Airport Road.", "label": "done"}
+{"query": "Fetch detections for yellow buses.", "label": "done"}
+{"query": "List all lane change detections with no red light violation", "label": "done"}
+{"query": "Get events where truck speed exceeded 90 km/h.", "label": "done"}
+{"query": "Show analytics from camera 909 for today.", "label": "done"}
+{"query": "Retrieve all lost vehicles detected last week.", "label": "done"}
+{"query": "Get all lane change events from camera 210 in the last 24 hours.", "label": "done"}
+{"query": "Show vehicles that changed to lane 2 on MG Road.", "label": "done"}
+{"query": "Fetch lane change analytics for buses from yesterday.", "label": "done"}
+{"query": "List lane changes detected in zone Z-9.", "label": "done"}
+{"query": "Get events where a car moved from one lane to another today.", "label": "done"}
+{"query": "Show lane change detections from side view cameras.", "label": "done"}
+{"query": "Retrieve lane change events from camera 77.", "label": "done"}
+{"query": "List all truck lane changes in the past week.", "label": "done"}
+{"query": "Show vehicles changing lanes near Delhi junction.", "label": "done"}
+{"query": "Fetch lane change events from entry_cam.", "label": "done"}
+{"query": "Get all lane change alerts from last 10 days.", "label": "done"}
+{"query": "Show lane changes involving motorcycles.", "label": "done"}
+{"query": "Retrieve lane change events from camera 333.", "label": "done"}
+{"query": "List vehicles that changed lanes in zone Z-21.", "label": "done"}
+{"query": "Show analytics for rear-view lane change detections.", "label": "done"}
+{"query": "Fetch lane changes on NH-48 today.", "label": "done"}
+{"query": "Get events where bus changed lanes.", "label": "done"}
+{"query": "Show all lane changes detected at peak hours yesterday.", "label": "done"}
+{"query": "Retrieve analytics from camera 118 for lane changes.", "label": "done"}
+{"query": "List lane change events involving cars.", "label": "done"}
+{"query": "Show lane changes near Railway crossing.", "label": "done"}
+{"query": "Fetch analytics for Ring Road area.", "label": "done"}
+{"query": "Get lane change alerts from feeds 600–610.", "label": "done"}
+{"query": "Show all vehicles that changed lanes in the last hour.", "label": "done"}
+{"query": "List all  violations detected today for lane change.", "label": "done"}
+{"query": "Get lane change events from zone Z-19.", "label": "done"}
+{"query": "Show vehicles moving in the wrong direction yesterday.", "label": "done"}
+{"query": "Fetch alerts involving trucks.", "label": "done"}
+{"query": "Get analytics from camera 55 .", "label": "done"}
+{"query": "Show reverse traffic violations near Airport junction.", "label": "done"}
+{"query": "Retrieve events where bike was detected in reverse direction.", "label": "done"}
+{"query": "Get events from rear-view cameras detecting reverse traffic.", "label": "done"}
+{"query": "Show reverse traffic detections from zone Z-42.", "label": "done"}
+{"query": "Fetch analytics where a car was overspeeding and in reverse traffic.", "label": "done"}
+{"query": "Get combined events where a truck changed lanes and oversped.", "label": "done"}
+{"query": "Show stolen vehicles detected in reverse traffic.", "label": "done"}
+{"query": "Retrieve analytics where a bike had no helmet and was in reverse traffic.", "label": "done"}
+{"query": "List events involving lane change and red light violation.", "label": "done"}
+{"query": "Get analytics where a car overspeeded and changed lanes.", "label": "done"}
+{"query": "Fetch combined alerts from camera 909.", "label": "done"}
+{"query": "Get events where truck violated speed and lane rules.", "label": "done"}
+{"query": "Show analytics where a wanted car was in reverse traffic.", "label": "done"}
+{"query": "Retrieve all violations from zone Z-88.", "label": "done"}
+{"query": "List events where bike triple riding and lane change occurred.", "label": "done"}
+{"query": "Get analytics for yellow stolen vehicles with multiple violations.", "label": "done"}
+{"query": "Show combined ANPR and lane change alerts from last week.", "label": "done"}
+{"query": "Fetch all analytics events where a vehicle overspeeded, violated red light, changed lanes, and moved in reverse traffic.", "label": "done"}
+{"query": "Show all analytics events from the past 7 days where a male without mask, showing angry emotion, was detected driving a stolen yellow truck with plate HR35456, overspeeding at 80 km/h, on camera 111.", "label": "done"}
+{"query": "Get analytics from camera 99 where a female wearing glasses was recognized entering a blue stolen car with plate KA234TY, which later violated a red light.", "label": "done"}
+{"query": "Fetch events from yesterday where a male aged above 40, no mask, was detected riding a motorcycle with triple riding, no helmet, and speed violation.", "label": "done"}
+{"query": "Show analytics from 7 Sept 2024 to 25 Dec 2025 where a known person named Rahul Sharma was detected inside a wanted car overspeeding above 120 km/h.", "label": "done"}
+{"query": "Retrieve all events where a female with happy emotion was detected entering an authorized car that later violated speed limits on NH-48.", "label": "done"}
+{"query": "Get analytics from camera 210 where a male wearing glasses was seen driving a yellow mini-truck that ran a red light.", "label": "done"}
+{"query": "Show events from last 48 hours where an unknown identity male, no mask, was detected riding a stolen bike overspeeding.", "label": "done"}
+{"query": "Fetch analytics where a person with scared emotion was detected inside a car with plate DL8CAF1234 flagged for speed violation.", "label": "done"}
+{"query": "Get events from entry_cam where a female aged between 25 and 30 was recognized driving an unauthorized vehicle.", "label": "done"}
+{"query": "Show combined analytics where a male without mask, emotion angry, was detected driving a truck overspeeding above 90 km/h in zone Z-12.", "label": "done"}
+{"query": "Retrieve events from camera 77 where a male with glasses was seen riding a bike with no helmet, later flagged for red light violation.", "label": "done"}
+{"query": "Get analytics where a known staff identity was detected driving a company vehicle involved in speed violation.", "label": "done"}
+{"query": "Show events from past 30 days where a female without mask was detected inside a stolen car.", "label": "done"}
+{"query": "Fetch analytics from camera 305 where a male showing neutral emotion was driving a blue car overspeeding above 100 km/h.", "label": "done"}
+{"query": "Get events where a personId 3fa85f64-5717-4562-b3fc-2c963f66afa6 was detected driving a wanted vehicle.", "label": "done"}
+{"query": "Show analytics from last week where a male aged above 50 was driving a truck that violated traffic signals.", "label": "done"}
+{"query": "Retrieve events where a female with mask and glasses was detected entering a yellow car overspeeding.", "label": "done"}
+{"query": "Get analytics from camera 150 where a male without mask was riding a motorcycle with triple riding violation.", "label": "done"}
+{"query": "Show events where a person with emotion sad was detected driving a lost vehicle.", "label": "done"}
+{"query": "Fetch analytics from past 72 hours where an unknown person was driving an unauthorized mini-truck overspeeding.", "label": "done"}
+{"query": "Get events where a male wearing glasses was detected inside a red car involved in red light violation.", "label": "done"}
+{"query": "Show analytics from camera 501 where a female aged below 20 was detected riding a bike without helmet.", "label": "done"}
+{"query": "Retrieve events where a known VIP identity was detected driving a blue authorized car exceeding 110 km/h.", "label": "done"}
+{"query": "Get analytics where a male without mask was detected driving a truck flagged as stolen.", "label": "done"}
+{"query": "Show events from zone Z-88 where a female showing surprised emotion was inside a vehicle violating speed rules.", "label": "done"}
+{"query": "Fetch analytics from camera 118 where a male aged 30, no mask, was detected riding a bike overspeeding.", "label": "done"}
+{"query": "Get events where a female wearing glasses was detected entering a wanted vehicle.", "label": "done"}
+{"query": "Show analytics from entry_cam where a male with angry emotion was driving a yellow truck overspeeding above 85 km/h.", "label": "done"}
+{"query": "Retrieve events where a person with detConf is greater than 0.9 was detected driving a stolen car.", "label": "done"}
+{"query": "Get analytics from camera 210 where a female without mask was seen driving a car violating red lights.", "label": "done"}
+{"query": "Show events where a male aged above 60 was detected riding a motorcycle without helmet.", "label": "done"}
+{"query": "Fetch analytics from last month where a known identity was detected inside a vehicle flagged as wanted.", "label": "done"}
+{"query": "Get events where a female with neutral emotion was driving an unauthorized car.", "label": "done"}
+{"query": "Show analytics from camera 88 where a male wearing glasses was driving a blue stolen car.", "label": "done"}
+{"query": "Retrieve events where a person with emotion scared was detected inside a truck overspeeding.", "label": "done"}
+{"query": "Get analytics from past 10 days where a female aged between 18 and 25 was riding a bike violating traffic rules.", "label": "done"}
+{"query": "Show events where a male without mask was detected driving a vehicle with plate TN10AA1234.", "label": "done"}
+{"query": "Fetch analytics from camera 302 where a female with happy emotion was inside a car overspeeding.", "label": "done"}
+{"query": "Get events where a known staff member was detected driving a company truck exceeding speed limits.", "label": "done"}
+{"query": "Show analytics where a male aged below 18 was detected riding a motorcycle.", "label": "done"}
+{"query": "Retrieve events from zone Z-19 where a female without mask was driving a yellow mini-truck overspeeding.", "label": "done"}
+{"query": "Get analytics from camera 333 where a male showing angry emotion was detected inside a car violating red lights.", "label": "done"}
+{"query": "Show events where a person with glasses and mask was driving an authorized vehicle overspeeding.", "label": "done"}
+{"query": "Fetch analytics from last week where a female aged above 45 was driving a truck involved in violations.", "label": "done"}
+{"query": "Get events where a male without helmet and without mask was riding a bike overspeeding.", "label": "done"}
+{"query": "Show analytics from camera 909 where a female showing sad emotion was detected driving a stolen vehicle.", "label": "done"}
+{"query": "Retrieve events where a known identity was detected inside a vehicle with multiple violations.", "label": "done"}
+{"query": "Get analytics where a male with detConf is less than 0.6 was driving an unauthorized car.", "label": "done"}
+{"query": "Show events from past 5 days where a female wearing glasses was detected entering a wanted vehicle.", "label": "done"}
+{"query": "Fetch analytics events where a person without mask, emotion angry, was detected driving a stolen vehicle overspeeding and violating traffic signals.", "label": "done"}
+{"query": "Give me all analytics events from the past 7 days from feed 111 and entry_cam where a stolen yellow truck with plate HR35456 was overspeeding at 80 km/h, violated a red light, changed to lane 1, and was detected in reverse traffic at Delhi road junction.", "label": "done"}
+{"query": "Show analytics events from 7 September 2024 to 25 December 2025 from cameras 99, 878, and 990 where a blue stolen car with plate KA234TY was overspeeding at 200 km/h, ran a red light, changed lanes near MG Road, and was detected moving in the wrong direction.", "label": "done"}
+{"query": "Fetch all events from the last 48 hours where an unauthorized motorcycle with three riders, no helmet, overspeeding, changed lane 2, and was detected in reverse traffic from camera 45.", "label": "done"}
+{"query": "Get analytics from camera 210 in the past 24 hours where a bus changed to lane 3, overspeeded above 70 km/h, and was detected moving in reverse traffic in zone Z-9.", "label": "done"}
+{"query": "Retrieve all events from feed 501 over the last 10 days where a wanted red car violated a traffic signal, changed lanes, and was detected going in the wrong direction near Airport junction.", "label": "done"}
+{"query": "Show analytics from camera 77 where a yellow mini-truck exceeded 90 km/h, changed lane 1, and was recognized in reverse traffic in the past week.", "label": "done"}
+{"query": "Fetch events from zone Z-88 in the last 30 days where a stolen vehicle was overspeeding, violated a red light, and changed lanes multiple times before entering reverse traffic.", "label": "done"}
+{"query": "Get analytics events from yesterday where a blue bike with no helmet and triple riding changed lanes and was detected in reverse traffic on NH-48.", "label": "done"}
+{"query": "Show combined analytics from camera 305 where a truck crossed 100 km/h, changed lane 2, and was detected moving in the wrong direction during night hours.", "label": "done"}
+{"query": "Retrieve events from feeds 600 to 610 in the last 15 days where an unauthorized car overspeeded, violated a signal, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Get analytics from camera 99 where a green authorized car exceeded 120 km/h, changed lane 1, and triggered a reverse traffic violation today.", "label": "done"}
+{"query": "Fetch events from the past 72 hours where a truck overspeeded above 85 km/h, changed lane 3, and was flagged for reverse traffic in zone Z-12.", "label": "done"}
+{"query": "Get analytics where a wanted bike with no helmet overspeeded, changed lanes, and was detected going in the opposite direction near Ring Road.", "label": "done"}
+{"query": "Show combined events from camera 118 where a red car violated a signal, changed lanes, and entered reverse traffic during peak hours.", "label": "done"}
+{"query": "Retrieve all analytics from camera 150 in the last week where a blue stolen mini-truck exceeded 95 km/h, changed lane 2, and moved in reverse traffic.", "label": "done"}
+{"query": "Show analytics from entry_cam where a yellow unauthorized bike with three riders overspeeded, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Fetch events from camera 333 where a wanted car violated traffic signals, changed lane 1, and was detected going against traffic.", "label": "done"}
+{"query": "Get analytics from last month where a truck overspeeded above 110 km/h, changed lanes, and triggered reverse traffic alerts.", "label": "done"}
+{"query": "Show events from camera 210 where a blue car exceeded speed limits, changed lane 3, and was detected in reverse traffic in MG Road area.", "label": "done"}
+{"query": "Retrieve analytics from zone Z-42 where a stolen motorcycle with no helmet overspeeded, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Show analytics from camera 909 where a wanted bus overspeeded, changed lane 2, and was flagged for reverse traffic today.", "label": "done"}
+{"query": "Fetch events from yesterday where a red car overspeeded above 100 km/h, changed lanes, and violated reverse traffic rules.", "label": "done"}
+{"query": "Get analytics from last 14 days where a blue stolen car violated signals, changed lanes, and moved in reverse traffic near Airport Road.", "label": "done"}
+{"query": "Show combined analytics where a truck overspeeded, changed lane 1, and was detected in wrong direction during night hours.", "label": "done"}
+{"query": "Retrieve events from camera 67 where an unauthorized bike with no helmet overspeeded, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Get analytics from zone Z-19 where a yellow bus violated speed rules, changed lanes, and was detected in reverse traffic.", "label": "done"}
+{"query": "Show events from camera 88 where a stolen blue car overspeeded above 130 km/h, changed lanes, and triggered reverse traffic alerts.", "label": "done"}
+{"query": "Fetch analytics from last 5 days where a truck violated red lights, changed lanes, and entered reverse traffic on NH-44.", "label": "done"}
+{"query": "Get events from camera 501 where a wanted car overspeeded, changed lane 2, and was detected going wrong way.", "label": "done"}
+{"query": "Show combined events from camera 45 where a bike with three riders overspeeded, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Retrieve analytics from feeds 700 to 710 where a yellow mini-truck overspeeded, changed lanes, and violated reverse traffic rules.", "label": "done"}
+{"query": "Get events from last week where a red unauthorized car violated signals, changed lanes, and moved in reverse traffic.", "label": "done"}
+{"query": "Show analytics from camera 118 where a blue bus overspeeded above 80 km/h, changed lane 3, and entered reverse traffic.", "label": "done"}
+{"query": "Fetch events from zone Z-55 where a stolen truck violated speed limits, changed lanes, and was detected in wrong direction.", "label": "done"}
+{"query": "Get analytics from camera 302 where a yellow bike with no helmet overspeeded, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Show combined events from past 20 days where a wanted vehicle overspeeded, changed lanes, and violated reverse traffic.", "label": "done"}
+{"query": "Retrieve analytics from camera 210 where a green authorized car overspeeded, changed lane 1, and was detected in reverse traffic.", "label": "done"}
+{"query": "Get events from camera 77 where a truck violated signals, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Fetch events from zone Z-33 where a bus overspeeded, changed lanes, and triggered reverse traffic alerts.", "label": "done"}
+{"query": "Get analytics from camera 999 where a red car violated speed rules, changed lane 2, and entered reverse traffic.", "label": "done"}
+{"query": "Show combined events from past month where a yellow stolen truck overspeeded, violated red lights, changed lanes, and entered reverse traffic.", "label": "done"}
+{"query": "Retrieve analytics from camera 150 where a wanted bike with no helmet overspeeded, changed lanes, and violated reverse traffic.", "label": "done"}
+{"query": "Show analytics from zone Z-90 where a truck overspeeded, changed lane 3, and entered reverse traffic.", "label": "done"}
+{"query": "Fetch events from camera 55 where a yellow unauthorized bus violated speed limits, changed lanes, and was detected in reverse traffic.", "label": "done"}
+{"query": "Get analytics events where a vehicle overspeeded, violated a red light, changed lanes, and moved in reverse traffic within the last 7 days.", "label": "done"}
+{"query": "Show all analytics events from the past 7 days where a male without helmet, no safety vest, showing angry emotion, was detected on camera 111.", "label": "done"}
+{"query": "Get events from yesterday where a female wearing glasses, no safety shoes, and sad emotion was detected inside the factory floor area.", "label": "done"}
+{"query": "Fetch analytics from camera 45 where a male aged above 40 was detected without safety belt and without helmet.", "label": "done"}
+{"query": "Show events from last 30 days where a known staff member was detected without safety vest, with neutral emotion.", "label": "done"}
+{"query": "Retrieve events where a female without helmet, mask on, and emotion scared was detected near construction zone A.", "label": "done"}
+{"query": "Get analytics from entry_cam where a male without safety shoes, no helmet, and happy emotion was detected.", "label": "done"}
+{"query": "Show events from camera 210 where a person with detConf is greater than 0.9 was detected without safety belt.", "label": "done"}
+{"query": "Fetch analytics where a female aged between 25 and 35 was detected without safety vest and without helmet.", "label": "done"}
+{"query": "Get events from last 48 hours where a male wearing glasses, no safety shoes, and emotion angry was detected.", "label": "done"}
+{"query": "Show analytics from camera 99 where a known identity was detected violating helmet and safety belt rules.", "label": "done"}
+{"query": "Retrieve events where a person named Rahul Sharma was detected without safety vest, showing neutral emotion.", "label": "done"}
+{"query": "Get analytics from past week where a female without safety shoes, no helmet, and sad emotion was detected.", "label": "done"}
+{"query": "Show events where a male aged above 50 was detected without helmet and without safety belt at warehouse gate.", "label": "done"}
+{"query": "Fetch analytics from camera 305 where a female with happy emotion was detected without safety vest.", "label": "done"}
+{"query": "Get events where a person with emotion surprised was detected without helmet on camera 77.", "label": "done"}
+{"query": "Show analytics from night hours yesterday where a male without safety shoes, no safety vest, and emotion angry was detected.", "label": "done"}
+{"query": "Retrieve events where a known contractor identity was detected without helmet and without safety vest.", "label": "done"}
+{"query": "Get analytics from camera 118 where a female wearing glasses was detected without safety belt.", "label": "done"}
+{"query": "Show events from past 15 days where a male without helmet, mask off, and emotion neutral was detected.", "label": "done"}
+{"query": "Fetch analytics where a female aged below 30 was detected violating safety shoes and vest rules.", "label": "done"}
+{"query": "Show all safety gear violation events from the past 7 days with helmet and safety vest were not worn.", "label": "done"}
+{"query": "Get events from camera 12 where safety shoes were not worn.", "label": "done"}
+{"query": "Fetch analytics from yesterday where safety belt was not worn.", "label": "done"}
+{"query": "Show events from last 30 days where helmet, safety vest, and safety shoes were all missing.", "label": "done"}
+{"query": "Retrieve events from camera 45 where no helmet was worn inside construction area.", "label": "done"}
+{"query": "Get safety violation alerts from entry_cam where safety belt was not worn.", "label": "done"}
+{"query": "Show analytics from camera 210 where safety vest was not worn during working hours.", "label": "done"}
+{"query": "Fetch events from past week where helmet and safety shoes were missing.", "label": "done"}
+{"query": "Get events from zone Z-12 where safety shoes was not worn.", "label": "done"}
+{"query": "Show analytics where safety belt and helmet violations occurred together.", "label": "done"}
+{"query": "Retrieve events from camera 99 where safety vest was not worn.", "label": "done"}
+{"query": "Get events from last 48 hours where no helmet was worn near machine area.", "label": "done"}
+{"query": "Show safety gear violation events from camera 305 where safety shoes were missing.", "label": "done"}
+{"query": "Fetch analytics from night shift yesterday where no safety belt was worn.", "label": "done"}
+{"query": "Get events where helmet and safety vest violations occurred in the same detection.", "label": "done"}
+{"query": "Show analytics from camera 77 where safety shoes and safety belt were not worn.", "label": "done"}
+{"query": "Retrieve events from past month where all required safety gear was missing.", "label": "done"}
+{"query": "Get safety violation alerts from camera 118 where helmet was not worn.", "label": "done"}
+{"query": "Show events from warehouse cameras where safety vest was missing.", "label": "done"}
+{"query": "Fetch all analytics events where helmet, safety belt, safety vest, and safety shoes were not worn.", "label": "done"}
+{"query": "Show all entry–exit analytics from the last 24 hours at main gate where entry exceeded 100.", "label": "done"}
+{"query": "Get people counting data from yesterday where exit was greater than entry at  Exit A.", "label": "done"}
+{"query": "Fetch events from camera 12 where the number of males entered was above 40.", "label": "done"}
+{"query": "Show analytics from the past 7 days where entry of females exceeded 60 in lobby", "label": "done"}
+{"query": "Retrieve events where entry was recorded but exit was zero on emergency exit line.", "label": "done"}
+{"query": "Get flow analytics from last weekend where total entry exceeded 300.", "label": "done"}
+{"query": "Show entry–exit data from camera 45 where persons entered exceeded the number of persons exited.", "label": "done"}
+{"query": "Fetch analytics from warehouse gate where exit exceeded entry.", "label": "done"}
+{"query": "Get events from zone Z-12 where males exited was higher than males entered.", "label": "done"}
+{"query": "Show people counting analytics from last month where females exited was dominant.", "label": "done"}
+{"query": "Retrieve events where entry count was zero at staff gate", "label": "done"}
+{"query": "Get entry–exit analytics for objects crossing loading bay line today.", "label": "done"}
+{"query": "Show analytics from camera 99 where entry exceeded 200.", "label": "done"}
+{"query": "Fetch events where exit count increased suddenly at north gate.", "label": "done"}
+{"query": "Get events from past 3 days where the number of males entered was equal to the number of females entered.", "label": "done"}
+{"query": "Show analytics where entry and exit counts matched.", "label": "done"}
+{"query": "Retrieve events from camera 210 where the number of persons exited.", "label": "done"}
+{"query": "Get flow analytics for mall entrance during peak hours.", "label": "done"}
+{"query": "Show events where the number of females entered was zero.", "label": "done"}
+{"query": "Fetch analytics from last week where entry trended upward daily.", "label": "done"}
+{"query": "Show analytics from the past 7 days where entry exceeded 50, and a male without mask was detected.", "label": "done"}
+{"query": "Get events from camera 99 where the number of females entered  was above 20, and a female showing angry emotion was recognized.", "label": "done"}
+{"query": "Fetch analytics from yesterday where entry increased, and an unknown identity person was detected.", "label": "done"}
+{"query": "Show events where the young adults' entries were high, and a male wearing glasses was recognized.", "label": "done"}
+{"query": "Retrieve analytics from last 48 hours where exit exceeded entry, and a sad emotion was detected.", "label": "done"}
+{"query": "Get events from entry_cam where the number of males entered exceeded the number of females entered, and a known staff identity appeared.", "label": "done"}
+{"query": "Show analytics for lobby line where the number of females entered exceeded 30, and a female without mask was detected.", "label": "done"}
+{"query": "Fetch events where the entries of old people occurred, and a person aged above 60 was recognized.", "label": "done"}
+{"query": "Show events from past week where entry and exit were both high, and a surprised emotion was detected.", "label": "done"}
+{"query": "Retrieve analytics where number of males exited exceeded the number of males entered, and a male with neutral emotion was recognized.", "label": "done"}
+{"query": "Get combined analytics where crowd entry exceeded 150, and unknown persons appeared repeatedly.", "label": "done"}
+{"query": "Show analytics from camera 118 where entries of adults dominated, and a female wearing glasses was detected.", "label": "done"}
+{"query": "Fetch events from last month where the exit of females increased, and a female with sad emotion was recognized.", "label": "done"}
+{"query": "Get events where entry crossed 500, and a VIP identity was detected.", "label": "done"}
+{"query": "Show analytics for south gate where the entry of males was high, and a male without mask was detected.", "label": "done"}
+{"query": "Retrieve events where children entered, and young faces were detected.", "label": "done"}
+{"query": "Get analytics from camera 333 where exit increased, and an unknown male was recognized.", "label": "done"}
+{"query": "Show events where entry surged, and multiple identities were detected.", "label": "done"}
+{"query": "Fetch combined analytics where crowd exit exceeded 100, and emotional distress was detected.", "label": "done"}
+{"query": "Show analytics from the past 7 days where entry exceeded 60, and helmet violations occurred.", "label": "done"}
+{"query": "Get events from camera 45 where entry increased, and safety vest was not worn.", "label": "done"}
+{"query": "Fetch analytics from yesterday where the entry of males was high, and safety shoes were missing.", "label": "done"}
+{"query": "Show events at factory gate where people exited, and safety belt violations were detected.", "label": "done"}
+{"query": "Retrieve analytics from last 30 days where entry exceeded exit, and multiple helmet violations occurred.", "label": "done"}
+{"query": "Get events from entry_cam where the entry of females increased, and helmet and vest were both missing.", "label": "done"}
+{"query": "Show analytics from camera 118 where the entry of adults occurred, and no safety shoes were detected.", "label": "done"}
+{"query": "Fetch events where crowd entry happened, and safety belt violations were triggered.", "label": "done"}
+{"query": "Get analytics from last week where exit spiked, and safety vest violations occurred.", "label": "done"}
+{"query": "Show events from camera 99 where entry exceeded 100, and no helmet was detected.", "label": "done"}
+{"query": "Retrieve analytics where the number of males entered dominated, and safety shoes violations were present.", "label": "done"}
+{"query": "Get events from zone Z-21 where people entered, and no safety gear was worn.", "label": "done"}
+{"query": "Show analytics for construction gate where entry increased, and helmet violations occurred.", "label": "done"}
+{"query": "Fetch events from night shift where exit occurred, and safety belt was missing.", "label": "done"}
+{"query": "Get analytics from camera 305 where the entry of females was high, and vest violations occurred.", "label": "done"}
+{"query": "Show events where entry exceeded 80, and multiple safety gear violations were detected.", "label": "done"}
+{"query": "Retrieve analytics from past 48 hours where entry was high, and helmet along with shoes violations occurred.", "label": "done"}
+{"query": "Get events from factory cameras where people exited, and no vest was detected.", "label": "done"}
+{"query": "Show analytics where crowd movement increased, and safety compliance dropped.", "label": "done"}
+{"query": "Fetch combined analytics where entry surged, and all safety gear was missing.", "label": "done"}
+{"query": "Show analytics from the past 7 days where vehicles entered through gate, and a stolen car was detected.", "label": "done"}
+{"query": "Get events from camera 99 where vehicle entry increased, and speed violations occurred.", "label": "done"}
+{"query": "Fetch analytics from yesterday where truck entries were recorded, and red light violations occurred.", "label": "done"}
+{"query": "Show events where vehicle exit was high, and a wanted vehicle was detected.", "label": "done"}
+{"query": "Retrieve analytics for parking exit where cars exited, and overspeeding was flagged.", "label": "done"}
+{"query": "Show analytics from camera 210 where vehicles crossed the line, and a yellow stolen truck was detected.", "label": "done"}
+{"query": "Fetch events where vehicle flow increased, and multiple ANPR violations occurred.", "label": "done"}
+{"query": "Show events from camera 501 where vehicle exit increased, and speed violations were detected.", "label": "done"}
+{"query": "Retrieve analytics where vehicle entry exceeded 200, and stolen vehicles were detected.", "label": "done"}
+{"query": "Get events from zone Z-19 where vehicle movement spiked, and wanted vehicles appeared.", "label": "done"}
+{"query": "Show analytics from parking cameras where car exits occurred, and overspeed alerts triggered.", "label": "done"}
+{"query": "Get analytics from entry_cam where vehicles entered, and red light violations followed.", "label": "done"}
+{"query": "Retrieve analytics from past month where vehicle exit exceeded entry, and speed violations occurred.", "label": "done"}
+{"query": "Show analytics where parking exit increased, and ANPR alerts spiked.", "label": "done"}
+{"query": "Show all crowd detections from the last 24 hours where count exceeded the configured threshold.", "label": "done"}
+{"query": "Get crowd analytics from zone Z-12 where crowd count was above 50.", "label": "done"}
+{"query": "Show crowd events from yesterday where movement speed was slow, indicating congestion.", "label": "done"}
+{"query": "Retrieve crowd detections from camera in lobby A where count exceeded 100.", "label": "done"}
+{"query": "Show crowd alerts from last weekend where threshold breaches occurred multiple times.", "label": "done"}
+{"query": "Get crowd analytics for parking area where density was high.", "label": "done"}
+{"query": "Show events where crowd count increased rapidly within 10 minutes.", "label": "done"}
+{"query": "Retrieve crowd detections from last week where crowd type was group.", "label": "done"}
+{"query": "Show crowd events for entry plaza where count remained stable but high.", "label": "done"}
+{"query": "Get analytics where crowd size dropped suddenly after peaking.", "label": "done"}
+{"query": "Show crowd detections from night hours where count exceeded expected values.", "label": "done"}
+{"query": "Retrieve events where crowd speed was fast, indicating sudden movement.", "label": "done"}
+{"query": "Show analytics for food court where crowd density was very high.", "label": "done"}
+{"query": "Get crowd events from last month where threshold was adjusted dynamically.", "label": "done"}
+{"query": "Show detections where count stayed just below threshold.", "label": "done"}
+{"query": "Retrieve crowd alerts from festival day at main ground.", "label": "done"}
+{"query": "Show crowd detections where type indicated gathering or protest.", "label": "done"}
+{"query": "Get analytics from camera 204 where crowd size exceeded 200.", "label": "done"}
+{"query": "Show crowd trends where count increased every hour.", "label": "done"}
+{"query": "Retrieve crowd detections for exit corridor during peak time.", "label": "done"}
+{"query": "Show events where crowd count increased, and entry counts spiked at main gate.", "label": "done"}
+{"query": "Get analytics from zone Z-5 where crowd threshold was breached, and entry exceeded exit.", "label": "done"}
+{"query": "Show crowd detections where count exceeded 100, and objects entered continuously.", "label": "done"}
+{"query": "Retrieve events where crowd density was high, and exit count dropped suddenly.", "label": "done"}
+{"query": "Show analytics from last 48 hours where crowd grew, and the entries of females dominated.", "label": "done"}
+{"query": "Get events where crowd movement slowed, and entry remained constant.", "label": "done"}
+{"query": "Show crowd alerts from lobby zone where the number of males entered exceeded 50.", "label": "done"}
+{"query": "Retrieve analytics where crowd dispersal happened, and exit counts surged.", "label": "done"}
+{"query": "Show events where crowd count exceeded threshold, and children entered the area.", "label": "done"}
+{"query": "Get analytics from camera 118 where crowd increased, and entry exceeded 200.", "label": "done"}
+{"query": "Show crowd detections where crowd size was high, and entry-exit imbalance was detected.", "label": "done"}
+{"query": "Retrieve events where crowd congestion formed, and multiple lines recorded entry.", "label": "done"}
+{"query": "Show analytics where crowd shrank, and exit exceeded entry.", "label": "done"}
+{"query": "Get events where crowd size remained high, despite low exit counts.", "label": "done"}
+{"query": "Show combined analytics where crowd buildup correlated with peak entry times.", "label": "done"}
+{"query": "What is the capital of Australia?", "label": "done"}
+{"query": "Tell me a joke about programmers.", "label": "done"}
+{"query": "How does photosynthesis work?", "label": "done"}
+{"query": "Who won the cricket world cup in 2011?", "label": "done"}
+{"query": "What is the boiling point of water?", "label": "done"}
+{"query": "Explain quantum computing in simple terms.", "label": "done"}
+{"query": "What are the benefits of yoga?", "label": "done"}
+{"query": "How to bake a chocolate cake?", "label": "done"}
+{"query": "What is the meaning of life?", "label": "done"}
+{"query": "Translate “hello” into French.", "label": "done"}
+{"query": "Who invented the telephone?", "label": "done"}
+{"query": "What is the speed of light?", "label": "done"}
+{"query": "How does inflation affect the economy?", "label": "done"}
+{"query": "Tell me a bedtime story.", "label": "done"}
+{"query": "What are black holes?", "label": "done"}
+{"query": "How to improve memory power?", "label": "done"}
+{"query": "What is artificial intelligence?", "label": "done"}
+{"query": "Explain Newton’s laws of motion.", "label": "done"}
+{"query": "How to learn guitar fast?", "label": "done"}
+{"query": "What is cloud computing?", "label": "done"}
+{"query": "How do I install Python on Linux?", "label": "done"}
+{"query": "What is the difference between list and tuple in Python?", "label": "done"}
+{"query": "Explain REST APIs.", "label": "done"}
+{"query": "How to center a div in CSS?", "label": "done"}
+{"query": "What is Docker used for?", "label": "done"}
+{"query": "Explain microservices architecture.", "label": "done"}
+{"query": "How to optimize SQL queries?", "label": "done"}
+{"query": "What is a deadlock in operating systems?", "label": "done"}
+{"query": "How to deploy a Flask app?", "label": "done"}
+{"query": "What is Kubernetes?", "label": "done"}
+{"query": "Difference between TCP and UDP.", "label": "done"}
+{"query": "What is Big-O notation?", "label": "done"}
+{"query": "How to fix a segmentation fault?", "label": "done"}
+{"query": "What is recursion?", "label": "done"}
+{"query": "Explain OAuth authentication.", "label": "done"}
+{"query": "How does Git rebase work?", "label": "done"}
+{"query": "What is blockchain?", "label": "done"}
+{"query": "Difference between HTTP and HTTPS.", "label": "done"}
+{"query": "What is a virtual machine?", "label": "done"}
+{"query": "Explain neural networks basics.", "label": "done"}
+{"query": "Who is the main actor in Inception?", "label": "done"}
+{"query": "Recommend a good Netflix series.", "label": "done"}
+{"query": "What are the top 10 movies of 2024?", "label": "done"}
+{"query": "Who sang the song “Shape of You”?", "label": "done"}
+{"query": "Explain the plot of Avengers Endgame.", "label": "done"}
+{"query": "What are the best anime series?", "label": "done"}
+{"query": "Who won the last Oscars?", "label": "done"}
+{"query": "Suggest some motivational movies.", "label": "done"}
+{"query": "What is K-pop?", "label": "done"}
+{"query": "Who is the richest actor in the world?", "label": "done"}
+{"query": "What is the storyline of Game of Thrones?", "label": "done"}
+{"query": "Recommend a good podcast.", "label": "done"}
+{"query": "What are popular YouTube channels?", "label": "done"}
+{"query": "Who directed Interstellar?", "label": "done"}
+{"query": "What is the best movie genre?", "label": "done"}
+{"query": "How to prepare for UPSC?", "label": "done"}
+{"query": "What are the best engineering colleges in India?", "label": "done"}
+{"query": "How to crack coding interviews?", "label": "done"}
+{"query": "What is the syllabus for CAT exam?", "label": "done"}
+{"query": "Tips to improve English speaking.", "label": "done"}
+{"query": "How to write a resume?", "label": "done"}
+{"query": "What are high-paying IT jobs?", "label": "done"}
+{"query": "How to study effectively?", "label": "done"}
+{"query": "What is data science?", "label": "done"}
+{"query": "Difference between MBA and MS.", "label": "done"}
+{"query": "How to prepare for IELTS?", "label": "done"}
+{"query": "Best books for learning Python.", "label": "done"}
+{"query": "How to become a software engineer?", "label": "done"}
+{"query": "What are career options after 12th?", "label": "done"}
+{"query": "How to get a job abroad?", "label": "done"}
+{"query": "What is a balanced diet?", "label": "done"}
+{"query": "How many hours should I sleep?", "label": "done"}
+{"query": "Tips to lose weight fast.", "label": "done"}
+{"query": "What causes headaches?", "label": "done"}
+{"query": "How to reduce stress?", "label": "done"}
+{"query": "Benefits of meditation.", "label": "done"}
+{"query": "How to build muscle?", "label": "done"}
+{"query": "What is BMI?", "label": "done"}
+{"query": "How to improve eyesight naturally?", "label": "done"}
+{"query": "What foods boost immunity?", "label": "done"}
+{"query": "How to quit smoking?", "label": "done"}
+{"query": "What is intermittent fasting?", "label": "done"}
+{"query": "How much water should I drink daily?", "label": "done"}
+{"query": "Yoga vs gym – which is better?", "label": "done"}
+{"query": "What causes back pain?", "label": "done"}
+{"query": "Best smartphone under ₹20,000.", "label": "done"}
+{"query": "What is the best laptop for students?", "label": "done"}
+{"query": "How to book cheap flights?", "label": "done"}
+{"query": "Best places to visit in Europe.", "label": "done"}
+{"query": "What is the weather in Paris today?", "label": "done"}
+{"query": "How to apply for a passport?", "label": "done"}
+{"query": "What are the best online shopping sites?", "label": "done"}
+{"query": "How to track an Amazon order?", "label": "done"}
+{"query": "Best hotels in Goa.", "label": "done"}
+{"query": "What is the currency of Japan?", "label": "done"}
+{"query": "How to learn cooking?", "label": "done"}
+{"query": "What is the best electric car?", "label": "done"}
+{"query": "How to start a small business?", "label": "done"}
+{"query": "What is digital marketing?", "label": "done"}
+{"query": "How to invest in mutual funds?", "label": "done"}
+{"query": "Generate a comparative performance analysis of distributed databases under varying network latency and replication factors over a six-month benchmark.", "label": "done"}
+{"query": "Analyze the impact of cache eviction policies on memory throughput in high-frequency trading systems.", "label": "done"}
+{"query": "Create a detailed report on CPU branch prediction accuracy across different compiler optimization levels.", "label": "done"}
+{"query": "Explain how transformer attention mechanisms scale with sequence length in multilingual language models.", "label": "done"}
+{"query": "Compare REST, GraphQL, and gRPC for microservice communication under heavy load conditions.", "label": "done"}
+{"query": "Provide a fault-tolerance strategy for Kubernetes clusters handling intermittent node failures.", "label": "done"}
+{"query": "Simulate packet loss behavior in UDP-based real-time video streaming systems.", "label": "done"}
+{"query": "Analyze the cost optimization trade-offs of serverless architectures versus containerized workloads.", "label": "done"}
+{"query": "Evaluate the security implications of OAuth token leakage in zero-trust environments.", "label": "done"}
+{"query": "Design a high-availability architecture for a global payment gateway handling millions of TPS.", "label": "done"}
+{"query": "Compare read-heavy versus write-heavy workloads in NoSQL databases using real-world examples.", "label": "done"}
+{"query": "Explain the mathematical foundations of backpropagation in deep neural networks.", "label": "done"}
+{"query": "Model the effect of garbage collection pauses in JVM-based low-latency systems.", "label": "done"}
+{"query": "Analyze how DNS caching impacts page load times across geographic regions.", "label": "done"}
+{"query": "Provide an architectural review of event-driven systems using Kafka versus RabbitMQ.", "label": "done"}
+{"query": "Simulate failure scenarios in distributed consensus algorithms like Raft and Paxos.", "label": "done"}
+{"query": "Evaluate the scalability of vector databases for semantic search applications.", "label": "done"}
+{"query": "Compare the accuracy of different speech-to-text models in noisy environments.", "label": "done"}
+{"query": "Analyze how compiler inlining affects binary size and runtime performance.", "label": "done"}
+{"query": "Design a multi-region disaster recovery plan for financial data centers.", "label": "done"}
+{"query": "Explain the impact of NUMA architecture on multi-threaded application performance.", "label": "done"}
+{"query": "Analyze the trade-offs between synchronous and asynchronous API calls.", "label": "done"}
+{"query": "Evaluate memory fragmentation issues in long-running C++ services.", "label": "done"}
+{"query": "Compare GPU and TPU workloads for large-scale model inference.", "label": "done"}
+{"query": "Analyze the carbon footprint of cloud computing workloads across regions.", "label": "done"}
+{"query": "Prepare a five-year market entry strategy for electric vehicles in Southeast Asia.", "label": "done"}
+{"query": "Analyze customer churn patterns for a SaaS platform using cohort analysis.", "label": "done"}
+{"query": "Create a financial forecast model for subscription-based revenue streams.", "label": "done"}
+{"query": "Compare B2B and B2C go-to-market strategies in emerging markets.", "label": "done"}
+{"query": "Evaluate the impact of dynamic pricing on airline ticket sales.", "label": "done"}
+{"query": "Develop a risk assessment framework for cross-border mergers.", "label": "done"}
+{"query": "Analyze supply chain disruptions caused by geopolitical tensions.", "label": "done"}
+{"query": "Design a KPI framework for measuring employee productivity in remote teams.", "label": "done"}
+{"query": "Compare centralized versus decentralized organizational structures.", "label": "done"}
+{"query": "Analyze brand perception changes after a major product recall.", "label": "done"}
+{"query": "Create a competitive analysis of fintech startups in India.", "label": "done"}
+{"query": "Evaluate the effectiveness of influencer marketing campaigns.", "label": "done"}
+{"query": "Design a customer loyalty program for an e-commerce platform.", "label": "done"}
+{"query": "Analyze seasonal demand fluctuations in retail markets.", "label": "done"}
+{"query": "Develop a pricing strategy for freemium software products.", "label": "done"}
+{"query": "Compare traditional advertising with digital performance marketing.", "label": "done"}
+{"query": "Analyze the effects of inflation on consumer purchasing behavior.", "label": "done"}
+{"query": "Design a balanced scorecard for enterprise performance management.", "label": "done"}
+{"query": "Evaluate risks associated with global currency fluctuations.", "label": "done"}
+{"query": "Analyze the economics of platform-based business models.", "label": "done"}
+{"query": "Analyze climate model predictions under different carbon emission scenarios.", "label": "done"}
+{"query": "Compare genome sequencing techniques for rare disease detection.", "label": "done"}
+{"query": "Explain quantum entanglement with experimental examples.", "label": "done"}
+{"query": "Evaluate the effectiveness of mRNA vaccines across variants.", "label": "done"}
+{"query": "Analyze the impact of ocean temperature rise on coral reefs.", "label": "done"}
+{"query": "Compare renewable energy storage technologies.", "label": "done"}
+{"query": "Evaluate the accuracy of satellite-based weather prediction models.", "label": "done"}
+{"query": "Analyze neural plasticity in adult brains based on recent studies.", "label": "done"}
+{"query": "Compare CRISPR gene-editing approaches.", "label": "done"}
+{"query": "Analyze the physics behind gravitational wave detection.", "label": "done"}
+{"query": "Evaluate AI models used for protein folding.", "label": "done"}
+{"query": "Analyze space debris accumulation risks in low-Earth orbit.", "label": "done"}
+{"query": "Compare nuclear fusion reactor designs.", "label": "done"}
+{"query": "Evaluate the impact of microplastics on marine ecosystems.", "label": "done"}
+{"query": "Analyze earthquake prediction models and their limitations.", "label": "done"}
+{"query": "Compare Mars rover navigation algorithms.", "label": "done"}
+{"query": "Evaluate long-term effects of zero-gravity on human physiology.", "label": "done"}
+{"query": "Analyze dark matter detection experiments.", "label": "done"}
+{"query": "Compare telescope technologies for deep-space observation.", "label": "done"}
+{"query": "Evaluate biosensor technologies for early disease detection.", "label": "done"}
+{"query": "Analyze the legal implications of AI-generated content ownership.", "label": "done"}
+{"query": "Compare data privacy regulations across GDPR, CCPA, and DPDP.", "label": "done"}
+{"query": "Evaluate the ethical concerns of facial recognition in social media (note: no cameras, zones, detections — policy only).", "label": "done"}
+{"query": "Analyze urban housing policy impacts on affordability.", "label": "done"}
+{"query": "Compare voting systems used in different democracies.", "label": "done"}
+{"query": "Evaluate cyber law challenges in cross-border investigations.", "label": "done"}
+{"query": "Analyze labor market changes due to automation.", "label": "done"}
+{"query": "Compare public healthcare funding models globally.", "label": "done"}
+{"query": "Evaluate the impact of remote work on urban planning.", "label": "done"}
+{"query": "Analyze misinformation spread on social platforms.", "label": "done"}
+{"query": "Compare censorship policies across countries.", "label": "done"}
+{"query": "Evaluate AI bias mitigation strategies.", "label": "done"}
+{"query": "Analyze refugee resettlement policy effectiveness.", "label": "done"}
+{"query": "Compare education funding models.", "label": "done"}
+{"query": "Evaluate intellectual property challenges in open-source software.", "label": "done"}
+{"query": "Analyze social media regulation frameworks.", "label": "done"}
+{"query": "Compare taxation systems for digital services.", "label": "done"}
+{"query": "Evaluate national cybersecurity strategies.", "label": "done"}
+{"query": "Analyze ethical implications of autonomous weapons.", "label": "done"}
+{"query": "Compare international trade agreement structures.", "label": "done"}
+{"query": "Design a personalized fitness plan based on metabolic rate and lifestyle.", "label": "done"}
+{"query": "Compare long-term health impacts of vegan versus keto diets.", "label": "done"}
+{"query": "Analyze sleep cycle optimization using wearable data.", "label": "done"}
+{"query": "Evaluate productivity methods for knowledge workers.", "label": "done"}
+{"query": "Compare electric and hybrid vehicles from an environmental perspective.", "label": "done"}
+{"query": "Analyze travel itineraries for cost and time efficiency across continents.", "label": "done"}
+{"query": "Compare financial investment portfolios for risk tolerance.", "label": "done"}
+{"query": "Analyze consumer behavior in luxury markets.", "label": "done"}
+{"query": "Evaluate smart home automation ecosystems.", "label": "done"}
+{"query": "Compare urban versus rural cost of living trends.", "label": "done"}
+{"query": "Analyze the psychology behind habit formation.", "label": "done"}
+{"query": "Compare remote education platforms effectiveness.", "label": "done"}
+{"query": "Evaluate ergonomic workstation designs.", "label": "done"}
+{"query": "Analyze language learning methodologies.", "label": "done"}
+{"query": "Compare meditation techniques for stress reduction.", "label": "done"}
+{"query": "Show vehicles detected exiting through the entry zone.", "label": "done"}
+{"query": "Show all vehicles detected as stopped today.", "label": "done"}
+{"query": "Get stopped vehicle incidents in zone A.", "label": "done"}
+{"query": "List all cars detected stopped in zone Z1.", "label": "done"}
+{"query": "Find trucks that were stopped this week.", "label": "done"}
+{"query": "Retrieve stopped buses in zone B2 yesterday.", "label": "done"}
+{"query": "Show two-wheelers detected as stopped.", "label": "done"}
+{"query": "Get stopped vehicles captured from the front view.", "label": "done"}
+{"query": "List vehicles detected as stopped from the rear view.", "label": "done"}
+{"query": "Find side-view stopped vehicle detections.", "label": "done"}
+{"query": "Show stopped vehicles with tracking number 15.", "label": "done"}
+{"query": "Retrieve vehicle stop events for tracking number 1023.", "label": "done"}
+{"query": "Get all stopped vehicles in the parking zone.", "label": "done"}
+{"query": "List stopped heavy vehicles in zone C.", "label": "done"}
+{"query": "Show stopped cars from the rear view in zone D.", "label": "done"}
+{"query": "Retrieve stopped vehicles detected in the exit lane.", "label": "done"}
+{"query": "Show all vehicle stop alerts grouped by category.", "label": "done"}
+{"query": "Get stopped vehicle detections for tracking number 7 in zone A.", "label": "done"}
+{"query": "List all stopped trucks from the side view.", "label": "done"}
+{"query": "Find stopped two-wheelers in zone Z3.", "label": "done"}
+{"query": "Show vehicles that remained stopped in zone B1 yesterday evening.", "label": "done"}
+{"query": "Retrieve stopped vehicle events with classification details.", "label": "done"}
+{"query": "Get all stopped vehicles detected from the rear camera.", "label": "done"}
+{"query": "List stopped vehicles grouped by zone and category.", "label": "done"}
+{"query": "Show all vehicles detected with sudden acceleration today.", "label": "done"}
+{"query": "Get rapid acceleration incidents in zone A.", "label": "done"}
+{"query": "List cars that showed abnormal acceleration in zone Z1.", "label": "done"}
+{"query": "Find trucks detected accelerating aggressively this week.", "label": "done"}
+{"query": "Retrieve buses with sudden acceleration yesterday.", "label": "done"}
+{"query": "Show two-wheelers detected with rapid acceleration.", "label": "done"}
+{"query": "Get accelerated vehicles captured from the front view.", "label": "done"}
+{"query": "List vehicles from the rear view showing abnormal acceleration.", "label": "done"}
+{"query": "Find side-view accelerated vehicle detections.", "label": "done"}
+{"query": "Show sudden acceleration events in the parking zone.", "label": "done"}
+{"query": "Get abnormal acceleration incidents in the exit lane.", "label": "done"}
+{"query": "List heavy vehicles detected with rapid acceleration.", "label": "done"}
+{"query": "Show accelerated cars in zone B2.", "label": "done"}
+{"query": "Find buses exhibiting sudden acceleration in zone C.", "label": "done"}
+{"query": "Retrieve two-wheelers with aggressive acceleration in zone D.", "label": "done"}
+{"query": "Show all acceleration alerts grouped by vehicle category.", "label": "done"}
+{"query": "Get accelerated trucks from the rear view in zone Z3.", "label": "done"}
+{"query": "List front-view cars detected accelerating rapidly.", "label": "done"}
+{"query": "Find abnormal vehicle acceleration events yesterday evening.", "label": "done"}
+{"query": "Show accelerated vehicles detected in the restricted zone.", "label": "done"}
+{"query": "Get all vehicles showing aggressive acceleration behavior.", "label": "done"}
+{"query": "List accelerated vehicle detections grouped by zone and category.", "label": "done"}
+{"query": "Show vehicles detected with rapid acceleration in zone A today.", "label": "done"}
+{"query": "Get events from camera 10 where a stolen red motorbike with speed violation was detected going in the wrong direction in zone Z1 within the last 24 hours.", "label": "done"}
+{"query": "Show all events from the past 7 days where a wanted blue car violated a red light and was also involved in a collision detected in collision zone 3.", "label": "done"}
+{"query": "Fetch events from camera 22 where a yellow unauthorized van exceeded speed limits and was later found stopped in parking lot 2.", "label": "done"}
+{"query": "Get events where a suspicious green truck violated a red light and a pedestrian was simultaneously detected crossing the road in crossing zone A.", "label": "done"}
+{"query": "Show events from the past 48 hours where an unauthorized orange vehicle was flagged for speed violation, and a perimeter violation was triggered on gate line 1 in the same zone.", "label": "done"}
+{"query": "Fetch events from camera 55 where a wanted yellow bus violated speed limits, moved in the wrong direction on highway Z2, and a collision was detected in zone Z5 within the last 12 hours.", "label": "done"}
+{"query": "Get analytics events from the past 7 days where a stolen red car accelerated abnormally in speed zone 1, violated a red light, and was also caught driving the wrong way southbound.", "label": "done"}
+{"query": "Show all events from camera 33 where an unauthorized blue auto rikshaw, detected as an illegal vehicle in restricted A zone, and crossed perimeter boundary B.", "label": "done"}
+{"query": "Fetch events where a lost orange van was identified with plate number MH12AB1234, and was recorded in motion zone X with entry timestamp between 08:00 and 09:00 today.", "label": "done"}
+{"query": "Get events from camera 77 where a known suspect named 'Rahul Sharma' was recognized showing an angry emotion, and a suspicious vehicle was simultaneously flagged in the same timeframe.", "label": "done"}
+{"query": "Show events from highway lane NH8 lane 1 where more than 15 trucks were detected, and a stolen red truck was flagged with a speed violation within the last 6 hours.", "label": "done"}
+{"query": "Get events from camera 44 where a suspicious yellow motorbike drove the wrong way in zone Z3, violated a red light, and a human was detected crossing the road in pedestrian zone 2 at the same time.", "label": "done"}
+{"query": "Fetch events from the last 24 hours where an unauthorized green car was stopped at checkpoint Z1, an alert was raised for speed violation, and a perimeter breach occurred on perimeter fence A.", "label": "done"}
+{"query": "Show analytics where a wanted blue truck suddenly accelerated in entry zone 1, caused a collision on highway Z4, and was flagged for both speed violation and red light violation.", "label": "done"}
+{"query": "Get events from camera 18 where a motorbike had triple riding detected, no helmet on any rider, and the plate number was flagged as unauthorized within the last 3 days.", "label": "done"}
+{"query": "Fetch events from camera 101 where a male aged between 30–40 wearing glasses and showing a neutral emotion was detected, and a perimeter violation was triggered on secure line B in restricted zone 1.", "label": "done"}
+{"query": "Show events from yesterday where a female without a mask was identified  showing a scared emotion, and was simultaneously recorded in motion zone 5 with exit timestamp after 18:00.", "label": "done"}
+{"query": "Get events where a known identity 'Priya Singh' was recognized with happy emotion on camera 66, and  was also detected crossing road in crossing zone 3 around the same time.", "label": "done"}
+{"query": "Fetch events from camera 29 where an unknown male showing surprised emotion was detected near a stopped truck at parking bay 4 within the past 12 hours.", "label": "done"}
+{"query": "Show events from the past 7 days where a masked female aged 25–35 was identified near a collision zone Z2, and the collision involved a bus detected from the front view.", "label": "done"}
+{"query": "Get events from camera 50 where a male without glasses, showing disgusted emotion, was detected alongside an illegal vehicle in restricted industrial zone 1.", "label": "done"}
+{"query": "Show events from camera 88 where a male named 'Vijay Kumar' showing angry emotion was identified, a stolen red car was flagged, and a perimeter violation occurred on entry gate Line.", "label": "done"}
+{"query": "Get events from the past 24 hours where an unknown female showing a sad emotion was detected near a zone where a vehicle suddenly accelerated, and motion analysis recorded extended dwell time in motion zone 2.", "label": "done"}
+{"query": "Show events from NH4 lane 3 where more than 20 cars and 5 trucks were recorded, and a bus heading southbound in wrong direction in zone Z7.", "label": "done"}
+{"query": "Get analytics for express lane 1 where truck count exceeded 10 and a collision was detected involving a two-wheeler on highway Z-3 within the last 6 hours.", "label": "done"}
+{"query": "Show analytics for national highway lane 5 where cows and dogs were detected on the road, and crossed the perimeter on the wildlife fence.", "label": "done"}
+{"query": "Get events from highway bypass lane 2 where more than 8 buses were detected and one was found stopped at emergency bay 1 with a rear-view detection.", "label": "done"}
+{"query": "Fetch events from camera 7 where E rickshaw and auto rickshaw counts exceeding 5 each were detected on restricted lane 1, and an alert was raised in no entry zone 2.", "label": "done"}
+{"query": "Show events for service lane 3 where bicycle count above 10 were detected, and an extended entry-to-exit duration was tracked in cycle zone 1.", "label": "done"}
+{"query": "Get events for fast track 1 highway lane where truck count exceeded 15, a wanted orange truck was flagged with speed violation, and a collision was detected in zone Z9 within past 24 hours.", "label": "done"}
+{"query": "Fetch events from camera 99 where motor bike count exceeded 20 was detected on two wheeler lane, a stolen motorbike was detected with triple riding, and heading towards entry in the wrong direction.", "label": "done"}
+{"query": "Get events from camera 34 where a person was detected crossing main fence line 1 in security zone 1, and an entry timestamp before 06:00 AM with prolonged dwell time was captured.", "label": "done"}
+{"query": "Fetch events from the last 7 days where a vehicle crossed north boundary perimeter line in industrial area, and a stopped truck was detected in loading bay 3 zone immediately after.", "label": "done"}
+{"query": "Show events from camera 21 where a person violated central fence perimeter line in high security zone A, and a human was detected crossing road in nearby road zone.", "label": "done"}
+{"query": "Get events from the past 48 hours where a perimeter violation occurred, an unknown female with scared emotion was identified, and motion was tracked in warehouse motion 1.", "label": "done"}
+{"query": "Fetch events from camera 60 where an illegal vehicle was detected in restricted govt. zone 1, and was simultaneously detected crossing the govt. fence line.", "label": "done"}
+{"query": "Get events from camera 55 where a vehicle breached the security fence line in plant zone 2, and a collision was detected in the adjacent plant road z1 zone.", "label": "done"}
+{"query": "Fetch events from the last 24 hours where a vehicle rapidly accelerated in approach zone 1 and subsequently crossed main gate fence line in secure entrance zone.", "label": "done"}
+{"query": "Show events from camera 14 where a long dwell period was detected between entry and exit in zone WatchZone3, and a stopped car was detected in the same zone with front-view orientation.", "label": "done"}
+{"query": "Get events from the past 7 days where late-night activity was recorded in night zone 1 between 00:00 and 04:00, and humans were also found crossing road in road crossing 2 zone.", "label": "done"}
+{"query": "Fetch events from camera 83 where a sudden exit was detected in high risk zone and a vehicle collision was recorded in high risk collision 1 zone within the same 10-minute window.", "label": "done"}
+{"query": "Get events from camera 71 where unusual activity was recorded in office block 1 after business hours, and a male without a mask was identified showing neutral emotion, and violated office perimeter line.", "label": "done"}
+{"query": "Fetch events from the past 3 days where prolonged activity was detected in restricted lot 1 zone, and an illegal vehicle was identified as a suspicious orange van in the same zone.", "label": "done"}
+{"query": "Show events from camera 19 where a very short dwell time was recorded in transit zone 3, indicating rapid passage, and a vehicle suddenly accelerating was also detected in the same zone.", "label": "done"}
+{"query": "Get events from camera 31 where a truck was stopped in emergency lane 1 and was detected colliding with a car in the same zone.", "label": "done"}
+{"query": "Fetch events from the last 48 hours where a bus stopped in bus stop 1 zone and multiple humans were detected crossing road in pedestrian zone 1 nearby.", "label": "done"}
+{"query": "Show events from camera 46 where a car was stopped blocking highway shoulder Z2, and a vehicle was detected in the wrong way heading exit direction in the same zone within the last hour.", "label": "done"}
+{"query": "Get events from camera 88 where a van stopped in gated area 1, and a person was found crossing gate check line, and a female with glasses showing surprised emotion was identified.", "label": "done"}
+{"query": "Fetch events from the past 24 hours where a stopped vehicle in no stop zone1 was identified as a lost green car.", "label": "done"}
+{"query": "Show events for slow lane 2 where van count above 5 was detected, and a long dwell time was recorded in highway rest 1 zone.", "label": "done"}
+{"query": "Get events from camera 27 where a car stopped in traffic signal 1 and then suddenly accelerated in exit ramp 1, both events recorded within the same 5-minute window.", "label": "done"}
+{"query": "Fetch events from camera 62 where a truck suddenly accelerated in merge zone 1 and was subsequently detected moving in the wrong direction heading northbound in zone divider zone 2.", "label": "done"}
+{"query": "Show events from the last 6 hours where a two-wheeler accelerated rapidly in approach lane 1 and caused a collision in Intersection zone 3.", "label": "done"}
+{"query": "Get events from camera 53 where a car suddenly accelerated in pedestrian risk 1 zone while a human was crossing road in crosswalk zone 2 at the same time.", "label": "done"}
+{"query": "Fetch events from the past 7 days where a vehicle suddenly accelerated in checkpoint approach zone, it was flagged as a wanted blue car with speed violation along with perimeter line violation on checkpoint line.", "label": "done"}
+{"query": "Show events from camera 38 where an illegal two-wheeler was detected in no entry zone 1 and then accelerated rapidly in escape route 1 .", "label": "done"}
+{"query": "Get events from main highway lane1 where the car count above 30 was recorded, and a motorbike was detected going in the wrong way heading northbound, and the plate was identified as unauthorized with red light violation.", "label": "done"}
+{"query": "Fetch events from camera 41 where a two-wheeler was detected heading in the wrong way in wrong way zone 1, and a very short dwell time was also recorded indicating high-speed passage through monitor zone Z2.", "label": "done"}
+{"query": "Fetch events from camera 16 where a vehicle collision was detected in intersection zone Z1 involving a car from the side view, and a human crossing road event was simultaneously triggered in pedestrian crossing zone 3.", "label": "done"}
+{"query": "Show events from the past 48 hours where an illegal vehicle was detected in restricted road zone Z1 and was involved in a collision with a truck detected from the rear view in collision area zone 2.", "label": "done"}
+{"query": "Get events from camera 59 where a collision between two cars was detected in zone urban zone 5, sudden motion stop was recorded, and a scared female was identified near the incident zone.", "label": "done"}
+{"query": "Fetch events where a collision involving a stolen yellow van was detected in highway zone Z8, it was confirmed the plate as stolen with speed violation, and breached accident zone line post-collision.", "label": "done"}
+{"query": "Show events from camera 25 where a pedestrian crossed pedestrian barrier in school zone 1 and a human was found crossing the road in nearby road 1.", "label": "done"}
+{"query": "Get events from the past 7 days where a human crossing road event occurred in road crossing zone Z2, an illegal vehicle was flagged in adjacent zone Z1, a suspicious vehicle was identified with no helmet on the rider.", "label": "done"}
+{"query": "Fetch events from camera 48 where humans were detected crossing road in market crossing zone 1 more than 3 times, and overlapping entry and exit timestamps  were tracked in street zone 4.", "label": "done"}
+{"query": "Show events from the last 24 hours where a masked female showing sad emotion was identified near overpass crossing zone 1, and was detected crossing road, and a bus was found stopping in bus bay zone 3.", "label": "done"}
+{"query": "Get events from camera 36 where an illegal van was detected in restricted port zone 1 with rear view, and a masked male showing unknown emotion was identified nearby.", "label": "done"}
+{"query": "Fetch events from the last 6 hours where an illegal truck was detected in industrial restricted zone 1, moved in the wrong direction northbound in service road 2, and was involved in a side-view collision in junction zone Z1.", "label": "done"}
+{"query": "Show events from camera 78 where an illegal bus was detected in no vehicle zone 1, unusual dwell time was recorded, and secure perimeter line C was violated.", "label": "done"}
+{"query": "Fetch events for danger highway lane 1 where a person count above 5 and bicycle count above 8 was recorded , and were detected crossing road in danger cross zone 1, breaching highway barrier perimeter line.", "label": "done"}
+{"query": "Show events from camera 67 where a male named 'Suresh Pillai' without a mask was identified with neutral emotion, a stopped car was detected in security gate zone 1, and re-entry was recorded in gate holding area zone.", "label": "done"}
+{"query": "Get events from the past 24 hours where a wanted blue car violated speed limits, accelerated rapidly in ramp entry zone Z1, a pedestrian was detected crossing road in nearby walkway, breaching service gate line.", "label": "done"}
+{"query": "Fetch events for central highway lane 3 where tractor count above 3 was recorded, and a collision was detected involving a mini truck in farm road zone Z1, and a scared male was identified near the accident scene.", "label": "done"}
+{"query": "Get events from the past 3 days where rapid zone transitions were recorded in high speed corridor zone Z1, a collision followed in corridor end zone 1, and the vehicle was flagged as stolen with speed violation.", "label": "done"}
+{"query": "Show events from the last 7 days where an illegal auto rickshaw was flagged in school premised zone Z1, an unauthorized alert was raised, a pedestrian was found crossing school crossing zone 1, and an extended stay was captured in school gate motion.", "label": "done"}
+{"query": "Get events from camera 95 where a car accelerated rapidly in merge ramp zone 1, caused a collision in highway merge zone Z2, the plate was flagged as suspicious with speed violation, and a disgusted male was identified without a mask at the scene.", "label": "done"}
+{"query": "Fetch events for national highway lane 9 where  motorbike and bicycle counts exceeding 15 combined were detected, heading in the wrong direction, the vehicle stopped in shoulder zone 3, and the highway divider perimeter line was violated.", "label": "done"}
+{"query": "Show events from camera 43 where a female aged 20–30 wearing a mask and glasses was recognized with neutral emotion, detected crossing  school crossing zone 2, and an illegal vehicle was detected in school no entry zone Z1.", "label": "done"}
+{"query": "Fetch events from camera 11 where a collision occurred between a bus and a car in  toll plaza zone Z1, bus count exceeding 8 was detected in toll lane 1, a toll barrier perimeter line was also violated, and a scared male was identified at the scene.", "label": "done"}
+{"query": "Get events from camera 72 where a suspicious green motorbike was flagged with triple riding, an unknown female was identified showing scared emotion, unusual activity was detected in parking structure zone 2, and parking perimeter line was violated.", "label": "done"}
+{"query": "Fetch events from industrial highway lane 1 where mini truck count above 10 was recorded, an illegal vehicle alert was raised in industrial no entry zone Z1, a collision was detected involving a mini truck in factory gate zone Z1, and the vehicle was flagged as unauthorized.", "label": "done"}
+{"query": "Show events from camera 85 where a known person 'Ajay Nair' showing angry emotion and without a mask was recognized, a car was detected heading in the wrong direction moving northbound in urban zone Z5, the car was later stopped in curb zone 1, and a re-entry pattern was recorded in nearby motion zone 1.", "label": "done"}
+{"query": "Get events from the past 7 days from camera 64 where a vehicle crossed plant entry fence perimeter line in plant secure zone Z1, it was identified as a wanted red truck with speed violation, it then accelerated in plant interior road zone, and a collision was detected in plant dock zone Z1.", "label": "done"}
+{"query": "Fetch events from highway camera 1 on main highway lane 1 where more than 25 cars, 10 trucks, and 2 cows were detected on the road, a stolen yellow bus was flagged with red light and speed violation, a wanted person was identified as 'Karan Desai' showing angry emotion near the scene, heading in the wrong way towards entry direction, and a collision was detected involving the bus in highway zone Z1.", "label": "done"}

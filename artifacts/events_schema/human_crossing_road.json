@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/human-crossing-road-properties.json",
+  "title": "Human Crossing Road Properties",
+  "description": "Detects instances of humans crossing a road within a defined surveillance zone. Captures object classification type, associated vehicle view (if applicable), and zone information. Use this event when queries involve pedestrian movement, jaywalking detection, or road-crossing analysis.",
+  "type": "object",
+
+  "properties": {
+    "vehicle_view": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "View or orientation context associated with the detection frame, if applicable."
+    },
+
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Classification of the detected object (e.g., person, pedestrian)."
+    },
+
+    "zoneId": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Identifier of the zone where the human crossing event was detected."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

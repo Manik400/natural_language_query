@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://your-org/schemas/Reverse_Traffic_Detected_EventProperties.json",
+  "title": "Reverse Traffic Properties",
+  "type": "object",
+  "description": "Properties associated with an event where a vehicle is detected moving in the wrong direction within a monitored zone.",
+  "properties": {
+    "vehicle_view": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "The camera or sensor view from which the vehicle was observed moving in reverse traffic."
+    },
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "The type or category of the vehicle detected (e.g., car, truck, motorcycle, bus)."
+    },
+    "zoneid": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "The identifier of the zone or road segment where the reverse traffic violation was detected."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

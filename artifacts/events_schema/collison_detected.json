@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/collision-detected-properties.json",
+  "title": "Collison Detected Properties",
+  "description": "Detects vehicle collision events within a surveillance zone. Captures vehicle view, vehicle classification type, and zone information where the collision occurred. Use this event when queries involve accidents, crashes, impact detection, or vehicle collision analysis.",
+  "type": "object",
+
+  "properties": {
+    "vehicle_view": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "View or orientation of the vehicle involved in the collision (e.g., front, rear, side)."
+    },
+
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Category or classification of the vehicle involved in the collision (e.g., car, truck, bus, two-wheeler)."
+    },
+
+    "zoneid": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Identifier of the zone where the collision was detected."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

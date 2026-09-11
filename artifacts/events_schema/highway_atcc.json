@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/highway-atcc-properties.json",
+  "title": "Highway ATCC Properties",
+  "description": "Automatic Traffic Counter and Classifier (ATCC) schema for highway monitoring. Captures vehicle classes, animals, persons, and lane metadata for traffic analytics, congestion monitoring, and roadside activity detection.",
+  "type": "object",
+
+  "properties": {
+    "bird": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of birds detected in the scene."
+    },
+    "dog": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of dogs detected in the scene."
+    },
+    "horse": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of horses detected in the scene."
+    },
+    "sheep": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of sheep detected in the scene."
+    },
+    "cow": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of cows detected in the scene."
+    },
+    "train": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of trains detected."
+    },
+    "e_rickshaw": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of electric rickshaws detected."
+    },
+    "mini_bus": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of mini buses detected."
+    },
+    "mini_truck": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of mini trucks detected."
+    },
+    "auto_rickshaw": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of auto rickshaws detected."
+    },
+    "van": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of vans detected."
+    },
+    "tractor": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of tractors detected."
+    },
+    "face": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of detected human faces."
+    },
+    "head": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of detected human heads."
+    },
+    "text": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of detected text regions."
+    },
+    "wagon_gap": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of detected wagon gaps between train coaches."
+    },
+    "LaneName": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Lane identifier where the objects were detected."
+    },
+    "bus": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of buses detected."
+    },
+    "truck": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of trucks detected."
+    },
+    "person": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of persons detected."
+    },
+    "motorbike": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of motorbikes detected."
+    },
+    "car": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of cars detected."
+    },
+    "bicycle": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0,
+      "description": "Count of bicycles detected."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

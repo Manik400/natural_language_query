@@ -1,0 +1,584 @@
+[
+  {
+    "id": "77a32339-022d-5ef7-b3ae-b4f8d24bd4ce",
+    "name": "PAPA_JOHNS_ENTRY_CAM01",
+    "ip": "192.168.9.12",
+    "type": "camera"
+  },
+  {
+    "id": "d247de39-1bf0-52f4-8eed-aa15b78e6d45",
+    "name": "DR_PEPPER_ENTRY_CAM01",
+    "ip": "192.168.9.13",
+    "type": "camera"
+  },
+  {
+    "id": "53d7d8fd-035a-51d4-8948-dfc3f58c9f5c",
+    "name": "SECL_KSM_AREA_GATE",
+    "ip": "192.168.1.1",
+    "type": "camera"
+  },
+  {
+    "id": "a5eca6dc-30a7-5b76-8850-5e08c7eb7a76",
+    "name": "SECL_KSM_BOSCH_ENTRY",
+    "ip": "192.168.1.2",
+    "type": "camera"
+  },
+  {
+    "id": "7b1dcbd2-f571-594e-a6ad-80f5608d44c4",
+    "name": "SECL_KSM_SARANGI",
+    "ip": "192.168.1.3",
+    "type": "camera"
+  },
+  {
+    "id": "0a3fa214-2912-56b1-ab4a-73133f7f86d4",
+    "name": "SECL_KSM_240T_NEW",
+    "ip": "192.168.1.4",
+    "type": "camera"
+  },
+  {
+    "id": "1950189d-629e-586d-9e1b-e2403855495d",
+    "name": "SECL_KSM_CAT_FACE",
+    "ip": "192.168.1.5",
+    "type": "camera"
+  },
+  {
+    "id": "a75d252f-6ac5-5f23-94f9-5c23087d660f",
+    "name": "SECL_KSM_1222",
+    "ip": "192.168.1.6",
+    "type": "camera"
+  },
+  {
+    "id": "bb0bb29a-dce8-5fc9-bebe-51919209c9b6",
+    "name": "SECL_KSM_PIT_CAM01",
+    "ip": "192.168.1.7",
+    "type": "camera"
+  },
+  {
+    "id": "d254a80f-979e-58a9-ac75-7b35b614712f",
+    "name": "SECL_KSM_PIT_CAM02",
+    "ip": "192.168.1.8",
+    "type": "camera"
+  },
+  {
+    "id": "e279aaa7-f88b-55a7-85b1-cacebfbf8a30",
+    "name": "SECL_KSM_PIT_CAM03",
+    "ip": "192.168.1.9",
+    "type": "camera"
+  },
+  {
+    "id": "c716dc51-41f7-57f6-82c8-facdbb830701",
+    "name": "SECL_KSM_ZB_CAM01",
+    "ip": "192.168.1.10",
+    "type": "camera"
+  },
+  {
+    "id": "08cc6be3-2975-5fbf-84fe-c4588b229dd9",
+    "name": "SECL_KSM_ZB_CAM02",
+    "ip": "192.168.1.11",
+    "type": "camera"
+  },
+  {
+    "id": "41825e98-f00d-5a01-9c39-b91b29e0f4d3",
+    "name": "SECL_KSM_RAIL_CAM01",
+    "ip": "192.168.1.12",
+    "type": "camera"
+  },
+  {
+    "id": "4bf15df6-4ecb-5f60-9827-799dfa7a26ab",
+    "name": "SECL_KSM_RAIL_CAM02",
+    "ip": "192.168.1.13",
+    "type": "camera"
+  },
+  {
+    "id": "fc14f149-1ee4-5e83-984e-dd902fcce070",
+    "name": "SECL_KSM_RAIL_LOAD01",
+    "ip": "192.168.1.14",
+    "type": "camera"
+  },
+  {
+    "id": "23a691e2-c146-5bf7-986b-867cf7af518a",
+    "name": "SECL_KSM_RAIL_LOAD02",
+    "ip": "192.168.1.15",
+    "type": "camera"
+  },
+  {
+    "id": "749407d9-7ba8-5c17-8693-5f2efe408c72",
+    "name": "SECL_KSM_PLATFORM_CAM01",
+    "ip": "192.168.1.16",
+    "type": "camera"
+  },
+  {
+    "id": "5b623c74-67b1-564f-9b22-c43474913c63",
+    "name": "SECL_KSM_PLATFORM_CAM02",
+    "ip": "192.168.1.17",
+    "type": "camera"
+  },
+  {
+    "id": "b2650a0b-2008-59f2-be88-79dfc8547adc",
+    "name": "SECL_KSM_SILO_CAM01",
+    "ip": "192.168.1.18",
+    "type": "camera"
+  },
+  {
+    "id": "a5c60692-6c67-5570-93b1-60a768b7232a",
+    "name": "SECL_KSM_SILO_CAM02",
+    "ip": "192.168.1.19",
+    "type": "camera"
+  },
+  {
+    "id": "016074e7-e6a8-5f27-9073-f2f5f21ed57a",
+    "name": "SECL_KSM_HIK_CAM01",
+    "ip": "192.168.1.20",
+    "type": "camera"
+  },
+  {
+    "id": "18440785-dbba-55bf-8f73-3109a1b4d30d",
+    "name": "SECL_KSM_HIK_PERIM01",
+    "ip": "192.168.1.21",
+    "type": "camera"
+  },
+  {
+    "id": "846c229c-ced2-50d2-8c76-df3d6c81eaab",
+    "name": "SECL_KSM_HIK_PERIM02",
+    "ip": "192.168.1.22",
+    "type": "camera"
+  },
+  {
+    "id": "7bb6b5f7-5183-513a-952d-82168fd5b811",
+    "name": "SECL_KSM_HIK_NORTH01",
+    "ip": "192.168.1.23",
+    "type": "camera"
+  },
+  {
+    "id": "f70e178a-2246-55ca-964d-5f6afce64860",
+    "name": "SECL_KSM_HIK_NORTH02",
+    "ip": "192.168.1.24",
+    "type": "camera"
+  },
+  {
+    "id": "5b1c4405-2237-5c5c-ad51-05d5687d217e",
+    "name": "SECL_KSM_HIK_TOWER01",
+    "ip": "192.168.1.25",
+    "type": "camera"
+  },
+  {
+    "id": "d136f322-72e4-5f14-a45b-c78c08743bc1",
+    "name": "SECL_KSM_HIK_TOWER02",
+    "ip": "192.168.1.26",
+    "type": "camera"
+  },
+  {
+    "id": "7cf61a71-990d-50f1-b61e-077025dd2504",
+    "name": "SECL_KSM_CPP_CAM01",
+    "ip": "192.168.1.27",
+    "type": "camera"
+  },
+  {
+    "id": "e9b732b7-9379-559a-81fd-b000bb3a68ea",
+    "name": "SECL_KSM_CPP_CAM02",
+    "ip": "192.168.1.28",
+    "type": "camera"
+  },
+  {
+    "id": "8c82570e-c41d-5b17-bb2c-d5b66dde364e",
+    "name": "SECL_KRB_MAIN_CAM",
+    "ip": "192.168.2.1",
+    "type": "camera"
+  },
+  {
+    "id": "41914694-5f52-5303-9d10-a7dac24fcf0e",
+    "name": "SECL_KRB_GEVRA_CAM01",
+    "ip": "192.168.2.2",
+    "type": "camera"
+  },
+  {
+    "id": "bf954b50-843a-565d-8632-ecae6f336ee9",
+    "name": "SECL_KRB_GEVRA_SURF01",
+    "ip": "192.168.2.3",
+    "type": "camera"
+  },
+  {
+    "id": "357c6102-b7f7-5942-91b6-2045f70e1b76",
+    "name": "SECL_KRB_GEVRA_SURF02",
+    "ip": "192.168.2.4",
+    "type": "camera"
+  },
+  {
+    "id": "6bdaa2cd-ebcf-5dac-8331-03640b0bb88d",
+    "name": "SECL_KRB_GEVRA_DISP01",
+    "ip": "192.168.2.5",
+    "type": "camera"
+  },
+  {
+    "id": "3334e03e-3362-587c-9ec2-58f95f008300",
+    "name": "SECL_KRB_GEVRA_BAY01",
+    "ip": "192.168.2.6",
+    "type": "camera"
+  },
+  {
+    "id": "3eb21796-b7c6-5ad9-ad6b-5426473661e8",
+    "name": "SECL_KRB_GEVRA_BAY02",
+    "ip": "192.168.2.7",
+    "type": "camera"
+  },
+  {
+    "id": "e1dec73d-bba4-5c8e-8e8a-215b3c2980d5",
+    "name": "SECL_BSPR_GATE_CAM",
+    "ip": "192.168.3.1",
+    "type": "camera"
+  },
+  {
+    "id": "979fa98b-0b20-52fc-8dbd-82bd28467275",
+    "name": "SECL_BSPR_OFFICE_CAM",
+    "ip": "192.168.3.2",
+    "type": "camera"
+  },
+  {
+    "id": "e1103050-ffa8-54e6-a3b9-d976d6eecbdd",
+    "name": "SECL_BSPR_AMG_WI_1",
+    "ip": "192.168.3.3",
+    "type": "camera"
+  },
+  {
+    "id": "37ffcca9-5d25-5bf2-a8f7-044084433af9",
+    "name": "SECL_BSPR_GAY_WB",
+    "ip": "192.168.3.4",
+    "type": "camera"
+  },
+  {
+    "id": "3d080b3c-8ea6-5377-8e2f-f94e445c188f",
+    "name": "SECL_BSPR_BALRAM",
+    "ip": "192.168.3.5",
+    "type": "camera"
+  },
+  {
+    "id": "19a60809-70b6-5a06-a6b4-69c25d77ffbc",
+    "name": "SECL_BSPR_WB_CABIN01",
+    "ip": "192.168.3.6",
+    "type": "camera"
+  },
+  {
+    "id": "071cb1f8-608e-5755-a9fa-8acf2d60225f",
+    "name": "SECL_BSPR_WB_CABIN02",
+    "ip": "192.168.3.7",
+    "type": "camera"
+  },
+  {
+    "id": "99543150-8c8b-5f82-83df-ab7c1ca344dd",
+    "name": "SECL_BSPR_WB_CTRL01",
+    "ip": "192.168.3.8",
+    "type": "camera"
+  },
+  {
+    "id": "477d3e2f-32ac-50b8-9580-8fe6170975ef",
+    "name": "SECL_BSPR_WB_CTRL02",
+    "ip": "192.168.3.9",
+    "type": "camera"
+  },
+  {
+    "id": "47d1e617-d87a-5ca0-ad35-3d1d005a02e7",
+    "name": "SECL_BSPR_BOOM_CAM01",
+    "ip": "192.168.3.10",
+    "type": "camera"
+  },
+  {
+    "id": "2ca56932-4b4a-554e-a656-2841f7152a4d",
+    "name": "SECL_BSPR_BOOM_CAM02",
+    "ip": "192.168.3.11",
+    "type": "camera"
+  },
+  {
+    "id": "53fcf6a3-09a9-5ada-85c4-17771024a614",
+    "name": "SECL_BSPR_BOOM_CABIN01",
+    "ip": "192.168.3.12",
+    "type": "camera"
+  },
+  {
+    "id": "750ba64b-11dc-519b-9009-eebe4028436c",
+    "name": "SECL_BSPR_BOOM_INNER01",
+    "ip": "192.168.3.13",
+    "type": "camera"
+  },
+  {
+    "id": "15a2737c-a98b-5aa8-948e-aca62e80fdf0",
+    "name": "SECL_BSPR_BOOM_INNER02",
+    "ip": "192.168.3.14",
+    "type": "camera"
+  },
+  {
+    "id": "1cfb7cce-8852-53f5-8041-d5ae294b1d2a",
+    "name": "SECL_BSPR_LAB_CAM01",
+    "ip": "192.168.3.15",
+    "type": "camera"
+  },
+  {
+    "id": "fce13949-eb8b-510e-ab6b-e392ea183b15",
+    "name": "SECL_BSPR_LAB_CAM02",
+    "ip": "192.168.3.16",
+    "type": "camera"
+  },
+  {
+    "id": "ffdae337-a7db-5a1b-a7a3-361e1d6865a6",
+    "name": "SECL_SGP_GATE_CAM",
+    "ip": "192.168.3.17",
+    "type": "camera"
+  },
+  {
+    "id": "6ad2b5b0-c009-5acb-ad4a-61ee57eb3721",
+    "name": "SECL_SGP_MINE_CAM01",
+    "ip": "192.168.3.18",
+    "type": "camera"
+  },
+  {
+    "id": "6b580966-c465-546f-a45c-0bf5d24c8b05",
+    "name": "SECL_SGP_UG_CAM01",
+    "ip": "192.168.3.19",
+    "type": "camera"
+  },
+  {
+    "id": "1aaf3c30-3a2f-5bfd-8965-edfa617d7bab",
+    "name": "SECL_SGP_UG_CAM02",
+    "ip": "192.168.3.20",
+    "type": "camera"
+  },
+  {
+    "id": "ca98df5d-b5a9-5473-94fa-5c52aec50469",
+    "name": "SECL_SGP_SHAFT_CAM01",
+    "ip": "192.168.3.21",
+    "type": "camera"
+  },
+  {
+    "id": "1fbca5f5-ddd6-5195-b0cc-b68c79a200fa",
+    "name": "SECL_SGP_SHAFT_CAM02",
+    "ip": "192.168.3.22",
+    "type": "camera"
+  },
+  {
+    "id": "6a46452e-fe9f-5ab9-8bb1-a40ab1adf213",
+    "name": "SECL_JOH_MAIN_CAM",
+    "ip": "192.168.4.1",
+    "type": "camera"
+  },
+  {
+    "id": "fa005198-0ac5-51ea-9b6a-ce7842083abe",
+    "name": "SECL_JOH_WASH_CAM01",
+    "ip": "192.168.4.2",
+    "type": "camera"
+  },
+  {
+    "id": "edb89f6b-2632-5704-964f-0d3e3bf05093",
+    "name": "SECL_JOH_WASH_CAM02",
+    "ip": "192.168.4.3",
+    "type": "camera"
+  },
+  {
+    "id": "4f094f0a-f9f7-5b22-882c-8bb32b4187da",
+    "name": "SECL_JOH_PLANT_CAM01",
+    "ip": "192.168.4.4",
+    "type": "camera"
+  },
+  {
+    "id": "1e7a10d6-56f0-5b6d-9732-b560fe31f22d",
+    "name": "SECL_JOH_CTRL_CAM01",
+    "ip": "192.168.4.5",
+    "type": "camera"
+  },
+  {
+    "id": "fe6a36e3-668b-5bb0-ad5d-7812e9d7d231",
+    "name": "SECL_JOH_CTRL_CAM02",
+    "ip": "192.168.4.6",
+    "type": "camera"
+  },
+  {
+    "id": "d20078c7-4307-53cf-af30-01f0162d53d3",
+    "name": "SECL_JOH_INNER_CAM01",
+    "ip": "192.168.4.7",
+    "type": "camera"
+  },
+  {
+    "id": "4c6a4f77-cd6b-5daa-8a15-3f20ba47beac",
+    "name": "SECL_JOH_INNER_CAM02",
+    "ip": "192.168.4.8",
+    "type": "camera"
+  },
+  {
+    "id": "cc88d299-f21f-5a8b-93ab-3975c574a5bc",
+    "name": "SECL_BKP_GATE_CAM",
+    "ip": "192.168.5.1",
+    "type": "camera"
+  },
+  {
+    "id": "4baa0e75-5ccc-51cf-91ee-157e7633e7a2",
+    "name": "SECL_BKP_HASDEO_CAM01",
+    "ip": "192.168.5.2",
+    "type": "camera"
+  },
+  {
+    "id": "20ba26d4-c89d-5a29-87f5-5c35e3c9a3f2",
+    "name": "SECL_BKP_HASDEO_SURF01",
+    "ip": "192.168.5.3",
+    "type": "camera"
+  },
+  {
+    "id": "452f3aae-7386-555b-9d86-f029dc430d59",
+    "name": "SECL_BKP_HASDEO_SURF02",
+    "ip": "192.168.5.4",
+    "type": "camera"
+  },
+  {
+    "id": "497d9b98-1278-5998-b06d-deeb33b3fffe",
+    "name": "SECL_BKP_OB_DUMP_CAM01",
+    "ip": "192.168.5.5",
+    "type": "camera"
+  },
+  {
+    "id": "581223b2-ec43-50f5-87f4-5bbd00bde808",
+    "name": "SECL_BKP_OB_SECA_CAM01",
+    "ip": "192.168.5.6",
+    "type": "camera"
+  },
+  {
+    "id": "d2754bd1-bf92-5c59-bc39-cd7fbca6786a",
+    "name": "SECL_BKP_OB_SECA_CAM02",
+    "ip": "192.168.5.7",
+    "type": "camera"
+  },
+  {
+    "id": "6a0ca6b0-dd17-5ef2-bdb5-34be6b60b665",
+    "name": "SECL_BKP_OB_SECA_CAM03",
+    "ip": "192.168.5.8",
+    "type": "camera"
+  },
+  {
+    "id": "60b2362c-2680-5311-827c-c6b195e87620",
+    "name": "SECL_BKP_WS_CAM01",
+    "ip": "192.168.5.9",
+    "type": "camera"
+  },
+  {
+    "id": "9591dd9f-28a0-5ffc-996b-d29887f4ea2a",
+    "name": "SECL_BKP_WS_CAM02",
+    "ip": "192.168.5.10",
+    "type": "camera"
+  },
+  {
+    "id": "a4eb6119-80d4-5189-9721-54cbbdb7b005",
+    "name": "SECL_BKP_COLONY_CAM01",
+    "ip": "192.168.5.11",
+    "type": "camera"
+  },
+  {
+    "id": "501f2dba-42a5-5bc2-bf5d-e2334efc23f7",
+    "name": "SECL_BKP_COLONY_CAM02",
+    "ip": "192.168.5.12",
+    "type": "camera"
+  },
+  {
+    "id": "4e2905be-a6ce-59d6-ad6f-be8a5be8d7d8",
+    "name": "SECL_BKP_HOSP_CAM01",
+    "ip": "192.168.5.13",
+    "type": "camera"
+  },
+  {
+    "id": "1b0f126e-757b-54d1-ad95-614e74220839",
+    "name": "SECL_BKP_WARD_CAM01",
+    "ip": "192.168.5.14",
+    "type": "camera"
+  },
+  {
+    "id": "188940d5-c4be-5657-88cb-b4f86f994960",
+    "name": "SECL_BKP_WARD_CAM02",
+    "ip": "192.168.5.15",
+    "type": "camera"
+  },
+  {
+    "id": "56313f37-a9e6-56af-b99c-8184b48d8272",
+    "name": "SECL_BKP_ICU_CAM01",
+    "ip": "192.168.5.16",
+    "type": "camera"
+  },
+  {
+    "id": "a364fcfd-bbab-5d90-a107-fb7555169870",
+    "name": "SECL_BKP_ICU_CAM02",
+    "ip": "192.168.5.17",
+    "type": "camera"
+  },
+  {
+    "id": "28e2fef0-5ce4-583b-a002-ad7750a5c2d4",
+    "name": "SECL_HQ_MAIN_GATE",
+    "ip": "192.168.6.1",
+    "type": "camera"
+  },
+  {
+    "id": "4f3b199e-1a37-57f8-b103-d4d207b3b2b4",
+    "name": "SECL_HQ_LOBBY_CAM",
+    "ip": "192.168.6.2",
+    "type": "camera"
+  },
+  {
+    "id": "f57be299-7c48-5343-9521-f488c4753803",
+    "name": "SECL_HQ_ADMIN_CAM01",
+    "ip": "192.168.6.3",
+    "type": "camera"
+  },
+  {
+    "id": "8e9bc05d-cf0f-58b8-b037-68d2d5ba21de",
+    "name": "SECL_HQ_FLOOR1_CAM01",
+    "ip": "192.168.6.4",
+    "type": "camera"
+  },
+  {
+    "id": "df141114-7556-58e0-810a-872b9ad28c12",
+    "name": "SECL_HQ_FLOOR1_CAM02",
+    "ip": "192.168.6.5",
+    "type": "camera"
+  },
+  {
+    "id": "8ac77e29-697b-5ce6-9755-3cd2f1f74b3a",
+    "name": "SECL_HQ_CONF_CAM01",
+    "ip": "192.168.6.6",
+    "type": "camera"
+  },
+  {
+    "id": "cafa5d64-bcda-5262-a4be-0d1523f7251d",
+    "name": "SECL_HQ_CONF_CAM02",
+    "ip": "192.168.6.7",
+    "type": "camera"
+  },
+  {
+    "id": "6d16d4bb-cc8e-5da3-8720-e5c58eb0d987",
+    "name": "SECL_HQ_BOARD_CAM01",
+    "ip": "192.168.6.8",
+    "type": "camera"
+  },
+  {
+    "id": "1e8605e1-4a6f-5fbf-af89-a31d006c16b6",
+    "name": "SECL_HQ_BOARD_CAM02",
+    "ip": "192.168.6.9",
+    "type": "camera"
+  },
+  {
+    "id": "16979b07-95a9-56a7-b4ce-2742c79250eb",
+    "name": "SECL_HQ_FLOOR2_CAM01",
+    "ip": "192.168.6.10",
+    "type": "camera"
+  },
+  {
+    "id": "aac0d782-3de2-505b-8c33-aca02a8b7582",
+    "name": "SECL_HQ_FLOOR2_CAM02",
+    "ip": "192.168.6.11",
+    "type": "camera"
+  },
+  {
+    "id": "cfb9c066-904b-5d92-953c-abf8bcac3f9e",
+    "name": "SECL_HQ_SEC_CAM01",
+    "ip": "192.168.6.12",
+    "type": "camera"
+  },
+  {
+    "id": "731b7789-0239-52a7-a803-7858689068c8",
+    "name": "SECL_HQ_SEC_CAM02",
+    "ip": "192.168.6.13",
+    "type": "camera"
+  }
+]

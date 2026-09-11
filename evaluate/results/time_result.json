@@ -1,0 +1,298 @@
+{
+  "intent_metrics": {
+    "absolute": {
+      "TP": 31,
+      "FP": 0,
+      "FN": 0,
+      "precision": "100.0%",
+      "recall": "100.0%",
+      "f1": "100.0%"
+    },
+    "duration": {
+      "TP": 34,
+      "FP": 6,
+      "FN": 0,
+      "precision": "85.0%",
+      "recall": "100.0%",
+      "f1": "91.9%"
+    },
+    "instant": {
+      "TP": 63,
+      "FP": 0,
+      "FN": 4,
+      "precision": "100.0%",
+      "recall": "94.0%",
+      "f1": "96.9%"
+    },
+    "invalid": {
+      "TP": 36,
+      "FP": 5,
+      "FN": 11,
+      "precision": "87.8%",
+      "recall": "76.6%",
+      "f1": "81.8%"
+    },
+    "none": {
+      "TP": 58,
+      "FP": 6,
+      "FN": 4,
+      "precision": "90.6%",
+      "recall": "93.5%",
+      "f1": "92.1%"
+    },
+    "relative": {
+      "TP": 67,
+      "FP": 2,
+      "FN": 0,
+      "precision": "97.1%",
+      "recall": "100.0%",
+      "f1": "98.5%"
+    }
+  },
+  "subclass_metrics": {
+    "absolute": {
+      "explicit_date_range": {
+        "TP": 31,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      }
+    },
+    "duration": {
+      "full_year": {
+        "TP": 13,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      },
+      "month_to_month_range": {
+        "TP": 10,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      },
+      "single_month": {
+        "TP": 11,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      }
+    },
+    "instant": {
+      "ambiguous_reference": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "conflicting_information": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "incomplete_expression": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "single_month": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "specific_date": {
+        "TP": 18,
+        "FP": 0,
+        "FN": 1,
+        "precision": "100.0%",
+        "recall": "94.7%",
+        "f1": "97.3%"
+      },
+      "today_or_yesterday": {
+        "TP": 12,
+        "FP": 0,
+        "FN": 2,
+        "precision": "100.0%",
+        "recall": "85.7%",
+        "f1": "92.3%"
+      },
+      "weekday_reference": {
+        "TP": 33,
+        "FP": 0,
+        "FN": 1,
+        "precision": "100.0%",
+        "recall": "97.1%",
+        "f1": "98.5%"
+      }
+    },
+    "invalid": {
+      "ambiguous_reference": {
+        "TP": 6,
+        "FP": 0,
+        "FN": 10,
+        "precision": "100.0%",
+        "recall": "37.5%",
+        "f1": "54.5%"
+      },
+      "conflicting_information": {
+        "TP": 4,
+        "FP": 0,
+        "FN": 1,
+        "precision": "100.0%",
+        "recall": "80.0%",
+        "f1": "88.9%"
+      },
+      "full_year": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "incomplete_expression": {
+        "TP": 12,
+        "FP": 1,
+        "FN": 1,
+        "precision": "92.3%",
+        "recall": "92.3%",
+        "f1": "92.3%"
+      },
+      "malformed_date": {
+        "TP": 13,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      },
+      "no_temporal_reference": {
+        "TP": 0,
+        "FP": 6,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "rolling_window": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "single_month": {
+        "TP": 0,
+        "FP": 3,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      }
+    },
+    "none": {
+      "ambiguous_reference": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "full_year": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "incomplete_expression": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      },
+      "no_temporal_reference": {
+        "TP": 58,
+        "FP": 0,
+        "FN": 4,
+        "precision": "100.0%",
+        "recall": "93.5%",
+        "f1": "96.7%"
+      },
+      "rolling_window": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "precision": "0.0%",
+        "recall": "0.0%",
+        "f1": "0.0%"
+      }
+    },
+    "relative": {
+      "completed_period": {
+        "TP": 14,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      },
+      "current_period": {
+        "TP": 10,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      },
+      "future_window": {
+        "TP": 15,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      },
+      "offset_from_anchor_date": {
+        "TP": 9,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      },
+      "rolling_window": {
+        "TP": 19,
+        "FP": 0,
+        "FN": 0,
+        "precision": "100.0%",
+        "recall": "100.0%",
+        "f1": "100.0%"
+      }
+    }
+  }
+}

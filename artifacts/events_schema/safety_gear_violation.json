@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://your-org/schemas/Safety_Gear_Violation_EventProperties.json",
+  "title": "Safety Gear Violation Properties",
+  "description": "Detects whether required safety gear is worn by people in monitored areas. Identifies the presence or absence of items such as helmet, safety belt, safety shoes, and safety vest to flag safety compliance or violations. Use this event when queries mention missing safety equipment, safety rule violations, or compliance monitoring.",
+  "type": "object",
+
+  "properties": {
+    "safetyshoes": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "Whether safety shoes are worn"
+    },
+    "safetyBelt": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "Whether safety belt is worn"
+    },
+    "safetyVest": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "Whether safety vest is worn"
+    },
+    "helmet": {
+      "type": "boolean",
+      "ruleType": 3,
+      "description": "Whether helmet is worn"
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

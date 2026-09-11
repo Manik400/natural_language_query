@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/vehicle-accelerated-properties.json",
+  "title": "Vehicle Accelerated Properties",
+  "description": "Detects vehicles that exhibit sudden or abnormal acceleration within a defined surveillance zone. Captures vehicle view, zone information, and vehicle classification details. Use this event when queries involve rapid acceleration, aggressive driving behavior, or abnormal vehicle movement analysis.",
+  "type": "object",
+
+  "properties": {
+    "vehicle_view": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "View or orientation of the detected vehicle (e.g., front, rear, side)."
+    },
+
+    "zoneid": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Identifier of the zone where sudden acceleration was detected."
+    },
+
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Category or classification of the detected vehicle (e.g., car, truck, bus, two-wheeler)."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

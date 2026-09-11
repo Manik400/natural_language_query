@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/vehicle-stopped-properties.json",
+  "title": "Vehicle Stopped Properties",
+  "description": "Detects vehicles that have stopped within a defined surveillance zone. Captures vehicle view, tracking identifier, zone information, and vehicle classification details.",
+  "type": "object",
+
+  "properties": {
+    "vehicle_view": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "View or orientation of the detected vehicle (e.g., front, rear, side)."
+    },
+
+    "trackid": {
+      "type": "integer",
+      "ruleType": 2,
+      "minimum": 0,
+      "default": 0,
+      "description": "Unique tracking identifier assigned to the detected vehicle during the analytic session."
+    },
+
+    "zoneid": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Identifier of the zone where the vehicle was detected as stopped."
+    },
+
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Category or classification of the detected vehicle (e.g., car, truck, bus, two-wheeler)."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/motion-analysis-properties.json",
+  "title": "Motion Analysis Properties",
+  "description": "Detects motion events within defined zones in a video surveillance system. Captures entry and exit timestamps along with frame-level timing information. Use this event when queries involve motion detection, zone-based activity, or time-based movement tracking.",
+  "type": "object",
+
+  "properties": {
+    "zoneID": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Identifier of the zone where motion was detected."
+    },
+
+    "exitTimeStamp": {
+      "type": "string",
+      "format": "date-time",
+      "ruleType": 5,
+      "description": "The timestamp when the detected object exited the defined zone. Recorded in ISO 8601 date-time format."
+    },
+
+    "entryTimeStamp": {
+      "type": "string",
+      "format": "date-time",
+      "ruleType": 5,
+      "description": "The timestamp when the detected object entered the defined zone. Recorded in ISO 8601 date-time format."
+    },
+
+    "frameEntryTimeStamp": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "The frame-level timestamp or identifier when motion was first detected within the zone."
+    },
+
+    "frameExitTimeStamp": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "The frame-level timestamp or identifier when motion was last detected within the zone."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://your-org/schemas/Lane_Changed_EventProperties.json",
+  "title": "Lane Changed Properties",
+  "description": "Detects vehicles changing lanes within a roadway or traffic area. Provides details such as vehicle type, camera or viewing angle, the lane involved, and the specific area or zone where the lane change occurred. Use this event when queries mention lane changes, lane entry or exit, or vehicle movement between lanes.",
+  "type": "object",
+  "properties": {
+    "vehicle_view": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Camera or vehicle view"
+    },
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Vehicle type"
+    },
+    "laneNo": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Lane number or identifier"
+    },
+    "area": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Area where lane change occurred"
+    },
+    "zoneId": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Zone identifier"
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

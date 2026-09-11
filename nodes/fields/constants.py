@@ -1,0 +1,15 @@
+OPERATORS = [
+    "Equal",
+    "NotEqual",
+    "GreaterThan",
+    "SmallerThan",
+    "GreaterThanOrEqual",
+    "SmallerThanOrEqual",
+    "Contains",
+    "NotContains",
+    "In",
+    "NotIn",
+    "Between",
+    "Like",
+    "NotLike",
+]

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/perimeter-violation-properties.json",
+  "title": "Perimeter Violation Properties",
+  "description": "Detects unauthorized crossing of a defined virtual line or protected perimeter within a surveillance area. Captures the line name, object classification type, and associated zone information. Use this event when queries involve boundary breaches, restricted area entry, or perimeter security violations.",
+  "type": "object",
+
+  "properties": {
+    "linename": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Name of the virtual line or boundary that was crossed."
+    },
+
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Classification of the detected object involved in the perimeter violation (e.g., person, vehicle)."
+    },
+
+    "Zone": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Identifier or name of the zone associated with the perimeter violation event."
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

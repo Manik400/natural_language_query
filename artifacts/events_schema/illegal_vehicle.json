@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/illegal-vehicle-properties.json",
+  "title": "Illegal Vehicle Properties",
+  "description": "Schema for illegal vehicle detection events. Captures vehicle view information, zone identification, and violation type for enforcement monitoring and restricted area analytics.",
+  "type": "object",
+
+  "properties": {
+    "vehicle_view": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Describes the detected vehicle view perspective (e.g., Front, Rear, Side). Used for identification and enforcement evidence."
+    },
+    "zoneid": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Identifier of the restricted or monitored zone where the illegal vehicle was detected."
+    },
+    "type": {
+      "type": "string",
+      "ruleType": 1,
+      "description": "Specifies the category or type of illegal vehicle violation detected."
+    }
+  },
+
+  "required": ["vehicle_view", "zoneid"],
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

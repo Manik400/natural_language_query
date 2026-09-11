@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/face-recognition-properties.json",
+  "title": "Face Recognition Properties",
+  "description": "Identifies and analyzes individual people using facial recognition in camera feeds. Provides attributes such as person identity or name, age, gender, facial accessories like mask or glasses, facial emotion, recognition and detection confidence, and assigned labels. Use this event when queries mention specific individuals, facial characteristics, emotions, or identity-based alerts.",
+  "type": "object",
+
+  "properties": {
+    "age": {
+      "type": "integer",
+      "ruleType": 0,
+      "minimum": 0
+    },
+
+    "glasses": {
+      "type": "boolean",
+      "ruleType": 3
+    },
+
+    "mask": {
+      "type": "boolean",
+      "ruleType": 3
+    },
+
+    "gender": {
+      "type": "string",
+      "ruleType": 1,
+      "enum": ["male", "female"]
+    },
+
+    "emotion": {
+      "type": "string",
+      "ruleType": 1,
+      "enum": [
+        "angry",
+        "disgusted",
+        "scared",
+        "happy",
+        "neutral",
+        "sad",
+        "surprised",
+        "unknown"
+      ]
+    },
+
+    "personName": {
+      "type": "string",
+      "ruleType": 1
+    },
+
+    "identity": {
+      "type": "string",
+      "ruleType": 1
+    },
+
+    "detConf": {
+      "type": "number",
+      "ruleType": 0,
+      "minimum": 0
+    }
+  },
+
+  "minProperties": 1,
+  "unevaluatedProperties": false
+}

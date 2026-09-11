@@ -1,0 +1,155 @@
+{
+  "per_event_metrics": {
+    "ANPR Properties": {
+      "TP": 181,
+      "FP": 0,
+      "FN": 16,
+      "accuracy": 91.9,
+      "precision": 100.0,
+      "recall": 91.9,
+      "f1": 95.8
+    },
+    "Collison Detected Properties": {
+      "TP": 22,
+      "FP": 0,
+      "FN": 1,
+      "accuracy": 95.7,
+      "precision": 100.0,
+      "recall": 95.7,
+      "f1": 97.8
+    },
+    "Crowd Detected Properties": {
+      "TP": 35,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0
+    },
+    "Face Recognition Properties": {
+      "TP": 157,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0
+    },
+    "Highway ATCC Properties": {
+      "TP": 21,
+      "FP": 3,
+      "FN": 1,
+      "accuracy": 84.0,
+      "precision": 87.5,
+      "recall": 95.5,
+      "f1": 91.3
+    },
+    "Human Crossing Road Properties": {
+      "TP": 16,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0
+    },
+    "Illegal Vehicle Properties": {
+      "TP": 14,
+      "FP": 9,
+      "FN": 1,
+      "accuracy": 58.3,
+      "precision": 60.9,
+      "recall": 93.3,
+      "f1": 73.7
+    },
+    "Lane Changed Properties": {
+      "TP": 78,
+      "FP": 0,
+      "FN": 1,
+      "accuracy": 98.7,
+      "precision": 100.0,
+      "recall": 98.7,
+      "f1": 99.4
+    },
+    "Motion Analysis Properties": {
+      "TP": 17,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0
+    },
+    "Objects Entered Properties": {
+      "TP": 94,
+      "FP": 5,
+      "FN": 0,
+      "accuracy": 94.9,
+      "precision": 94.9,
+      "recall": 100.0,
+      "f1": 97.4
+    },
+    "Perimeter Violation Properties": {
+      "TP": 22,
+      "FP": 0,
+      "FN": 2,
+      "accuracy": 91.7,
+      "precision": 100.0,
+      "recall": 91.7,
+      "f1": 95.7
+    },
+    "Reverse Traffic Properties": {
+      "TP": 69,
+      "FP": 0,
+      "FN": 1,
+      "accuracy": 98.6,
+      "precision": 100.0,
+      "recall": 98.6,
+      "f1": 99.3
+    },
+    "Safety Gear Violation Properties": {
+      "TP": 60,
+      "FP": 0,
+      "FN": 0,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0
+    },
+    "Vehicle Accelerated Properties": {
+      "TP": 40,
+      "FP": 1,
+      "FN": 2,
+      "accuracy": 93.0,
+      "precision": 97.6,
+      "recall": 95.2,
+      "f1": 96.4
+    },
+    "Vehicle Stopped Properties": {
+      "TP": 42,
+      "FP": 0,
+      "FN": 1,
+      "accuracy": 97.7,
+      "precision": 100.0,
+      "recall": 97.7,
+      "f1": 98.8
+    }
+  },
+  "aggregate": {
+    "macro": {
+      "accuracy": 93.6,
+      "precision": 96.1,
+      "recall": 97.2,
+      "f1": 96.4
+    },
+    "micro": {
+      "precision": 98.0,
+      "recall": 97.1,
+      "f1": 97.5,
+      "TP": 868,
+      "FP": 18,
+      "FN": 26
+    }
+  }
+}
